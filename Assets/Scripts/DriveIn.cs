@@ -11,9 +11,11 @@ public class DriveIn : MonoBehaviour {
 	
 	// Update is called once per frame
     void Update () {
-
-        float newPosition = Mathf.SmoothDamp(transform.position.y, 0, ref yVelocity, 0.9f);
-        transform.position = new Vector3(0, newPosition,0);
+        if (System.Math.Abs(transform.position.y) > 0.1)
+        {
+            float newPosition = Mathf.SmoothDamp(transform.position.y, 0, ref yVelocity, 0.9f);
+            transform.position = new Vector3(0, newPosition, 0);
+        }
 
     }
 }
