@@ -61,15 +61,22 @@ public class SwipeController : MonoBehaviour
 
     }
 
+    private void OnSwipedHorizontally(Vector2 position, float direction)
+    {
+        if (direction > 0)
+        {
+            Debug.Log("right");
+        }
+        else if (direction < 0)
+        {
+            Debug.Log("left");
+        }
+    }
+
     private void HandleSwipe(Touch touch)
     {
         Vector2 touchPos = touch.position;
         Vector2 direction = touchPos - swipeStartPos;
-
-        if (direction.y >= swipeVerticalRecognition || direction.y < -swipeVerticalRecognition)
-        {
-            OnSwipedVertically(touch.position, direction.y);
-        }
 
         if (direction.x > swipeHorizontalRecognition || direction.x < -swipeHorizontalRecognition)
         {
@@ -77,13 +84,6 @@ public class SwipeController : MonoBehaviour
         }
     }
 
-    private void OnSwipedHorizontally(Vector2 position, float direction)
-    {
-    }
-
-    private void OnSwipedVertically(Vector2 position, float direction)
-    {
-    }
 
     private void Update()
     {
