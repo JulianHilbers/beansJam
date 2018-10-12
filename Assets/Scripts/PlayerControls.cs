@@ -7,6 +7,7 @@ public class PlayerControls : MonoBehaviour
     private float yVelocity = 0.0f;
     private float laneDistance = 3f;
     public int lane = 0;
+    public float absPos;
 
     private Rigidbody2D rb2d;
 
@@ -21,12 +22,13 @@ public class PlayerControls : MonoBehaviour
     {
 
         float newPosition = Mathf.SmoothDamp(transform.position.x, lane * laneDistance, ref yVelocity, 0.3f);
-        transform.position = new Vector3(newPosition, 0, 0);
+        transform.position = new Vector3(newPosition, transform.position.y, 0);
 
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-            IncreaseLane();
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-            DecreaseLane();
+            if (Input.GetKeyDown(KeyCode.RightArrow))
+                IncreaseLane();
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
+                DecreaseLane();
+
     }
 
     public void IncreaseLane()
@@ -44,5 +46,4 @@ public class PlayerControls : MonoBehaviour
             lane--;
         }
     }
-
 }
