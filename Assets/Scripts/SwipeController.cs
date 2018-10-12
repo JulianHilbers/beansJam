@@ -2,6 +2,8 @@
 
 public class SwipeController : MonoBehaviour
 {
+    public PlayerControls playerControls;
+
     public float swipeVerticalRecognition = 30f;
     public float swipeHorizontalRecognition = 30f;
 
@@ -65,11 +67,11 @@ public class SwipeController : MonoBehaviour
     {
         if (direction > 0)
         {
-            Debug.Log("right");
+            playerControls.IncreaseLane();
         }
         else if (direction < 0)
         {
-            Debug.Log("left");
+            playerControls.DecreaseLane();
         }
     }
 
