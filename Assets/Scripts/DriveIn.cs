@@ -16,6 +16,5 @@ public class DriveIn : MonoBehaviour {
             float newPosition = Mathf.SmoothDamp(transform.position.y, 0, ref yVelocity, 0.9f);
             transform.position = new Vector3(0, newPosition, 0);
         }
-
     }
 }
