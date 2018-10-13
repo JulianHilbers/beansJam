@@ -1,17 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class Score : MonoBehaviour {
-
+public class Score : MonoBehaviour
+{
+    public Text textComponent;
     public GameStats gameStats;
     private int score = 0;
 
-	// Update is called once per frame
-	void Update () {
+    void Update()
+    {
         score++;
-        gameObject.GetComponent<Text>().text = score + " m";
+        textComponent.text = score + " m";
         gameStats.SetCurrentScore(score);
-	}
+    }
 }
