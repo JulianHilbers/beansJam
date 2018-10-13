@@ -5,13 +5,12 @@ public class CurrentScore : MonoBehaviour {
 
     public GameStats gamestats;
 
-    private Text text;
+    public Text text;
 
 	// Use this for initialization
 	void Start () {
-        text = GetComponent<Text>();
-
-        text.text = gamestats.GetCurrentScore() + "";
+        //TODO
+        Debug.Log("currentScore: " + gamestats.GetCurrentScore());
 	}
 	
 	// Update is called once per frame
