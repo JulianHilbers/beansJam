@@ -5,13 +5,9 @@ using System.Collections.Generic;
 public class GameStats : ScriptableObject {
     private int currentScore = 0;
 
-    private List<int> highscores;
-    private int playerLane;
-    private int playerLaneCount;
-
-    public void OnEnable() {
-        highscores = new List<int>();
-    }
+    public List<int> highscores = new List<int>();
+    public int playerLane;
+    public int playerLaneCount;
 
     public void SetCurrentScore(int newScore) {
         currentScore = newScore;
@@ -36,24 +32,24 @@ public class GameStats : ScriptableObject {
     }
 
     public void SetPlayerLane(int lane){
-        this.playerLane = lane;
+        playerLane = lane;
     }
 
     public int GetPlayerLane()
     {
-        return this.playerLane;
+        return playerLane;
     }
 
     public int GetPlayerLaneCount()
     {
-        return this.playerLaneCount;
+        return playerLaneCount;
     }
 
     public void PlayerLaneIncrement(){
-        this.playerLaneCount += 1;
+        playerLaneCount += 1;
     }
 
     public void PlayerLaneReset(){
-        this.playerLaneCount = 0;
+        playerLaneCount = 0;
     }
 }

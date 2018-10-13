@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class LambController : MonoBehaviour
 {
@@ -8,6 +6,7 @@ public class LambController : MonoBehaviour
     public float failPosition = -3.5f;
 
     [Header("Scene")]
+    public GameStats stats;
     public string sceneName;
     public SceneLoader SceneLoader;
 
@@ -39,6 +38,9 @@ public class LambController : MonoBehaviour
     private void CheckForFail()
     {
         if (transform.position.y > failPosition)
+        {
             SceneLoader.LoadScene(sceneName);
+            stats.SetNewHighScore(stats.GetCurrentScore());
+        }
     }
 }
