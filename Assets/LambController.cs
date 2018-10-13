@@ -20,19 +20,20 @@ public class LambController : MonoBehaviour
         rBody = GetComponent<Rigidbody2D>();
     }
 
+    private void Update()
+    {
+        CheckForFail();
+    }
+
     public void MoveUp()
     {
         rBody.AddForce(Vector2.up * moveSteps);
-
-        CheckForFail();
     }
 
     public void MoveDown()
     {
         if (transform.position.y >= initialY)
             rBody.AddForce(Vector2.down * moveSteps);
-
-        CheckForFail();
     }
 
     private void CheckForFail()

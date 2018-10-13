@@ -256,6 +256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f599d1e946d24f73a2f281daf4fd7f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lambController: {fileID: 1269813251}
   testY: 6
 --- !u!114 &1069993183
 MonoBehaviour:
@@ -271,6 +272,7 @@ MonoBehaviour:
   forceScaleFactor: 15
   laneDistance: 2
   lane: 0
+  stats: {fileID: 11400000, guid: 8eeb775317ee54a82875ae3ceba73153, type: 2}
 --- !u!61 &1069993184
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -545,6 +547,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1269813251 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114259480349159018, guid: 45d88ede03dfc284a9e2924637daffc3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1749572748}
+  m_Script: {fileID: 11500000, guid: e5eb0021c3970f945ac917f551def4ee, type: 3}
 --- !u!1 &1721473598
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,8 +584,8 @@ MonoBehaviour:
   waitUntilFirtstSpawn: 2
   speed: 4
   list:
-  - {fileID: 1957589304316430, guid: 55ce93083c46c484fa5c3e3b571abda1, type: 2}
-  - {fileID: 1957589304316430, guid: 55ce93083c46c484fa5c3e3b571abda1, type: 2}
+  - {fileID: 1575075870832498, guid: 7220b6efaf6154fb0b28c460c295fd18, type: 2}
+  - {fileID: 1497024090850284, guid: a4e01cf0af2854631b3b9a625bbd1e7e, type: 2}
   - {fileID: 1122191567700006, guid: 645ba1bfd048e447ebd1c59cad7cbfaa, type: 2}
   clonedList: []
 --- !u!4 &1721473600
@@ -631,6 +639,11 @@ Prefab:
     - target: {fileID: 4778537246282056, guid: 45d88ede03dfc284a9e2924637daffc3, type: 2}
       propertyPath: m_RootOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114259480349159018, guid: 45d88ede03dfc284a9e2924637daffc3,
+        type: 2}
+      propertyPath: failPosition
+      value: -3.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45d88ede03dfc284a9e2924637daffc3, type: 2}

@@ -2338,7 +2338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5eb0021c3970f945ac917f551def4ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSteps: 60
+  moveSteps: 70
   failPosition: -4
   sceneName: Scene-Highscroe
   SceneLoader: {fileID: 114188812398505790}
