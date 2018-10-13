@@ -11,7 +11,6 @@ public class HighscoreList : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Debug.Log(gameStats.GetHighscores());
         List<int> highscores = gameStats.GetHighscores();
         int count = 0;
         foreach (int highscore in highscores) {
@@ -19,10 +18,9 @@ public class HighscoreList : MonoBehaviour {
             ScoreElement scoreElement = newScoreElement.GetComponent<ScoreElement>();
 
             scoreElement.setScore(highscore);
-            Debug.Log("score: " + highscore);
 
             scoreElement.transform.parent = transform;
-            scoreElement.transform.localPosition = new Vector3(0, count * spacing, 0);
+            scoreElement.transform.localPosition = new Vector3(0, - count * spacing, 0);
 
 
             count++;
