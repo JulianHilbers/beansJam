@@ -26,7 +26,6 @@ public class BackgroundLoop : MonoBehaviour
 
     private void SwitchSprite()
     {
-        Debug.Log(Random.Range(0, sprites.Count));
         spriteRenderer.sprite = sprites[Random.Range(0, sprites.Count)];
     }
 
