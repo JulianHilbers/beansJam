@@ -14,7 +14,8 @@ public class CollistionTrigger : MonoBehaviour {
 	}
 
     void OnTriggerEnter2D(Collider2D other){
-        Debug.Log("Something has entered this zone.");
+        string colliderTag = other.tag;
+        Debug.Log("Something has entered this zone: "+ colliderTag);
     }
 
     // Update is called once per frame

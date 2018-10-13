@@ -8,9 +8,9 @@ public class PlayerControls : MonoBehaviour
     private float destinationY;
     private float destinationZ;
 
-    public float forceScaleFactor = 5;
+    public float forceScaleFactor = 7;
 
-    public float laneDistance = 2f;
+    public float laneDistance;
     public int lane = 0;
 
 
