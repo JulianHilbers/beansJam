@@ -730,6 +730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f599d1e946d24f73a2f281daf4fd7f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  testY: 10
 --- !u!114 &1230533930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -741,7 +742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a36f70c97512943819579375e8c4d1cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceScaleFactor: 5
+  forceScaleFactor: 15
   laneDistance: 2
   lane: 0
 --- !u!95 &1230533931

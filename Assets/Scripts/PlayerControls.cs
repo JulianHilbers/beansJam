@@ -8,7 +8,7 @@ public class PlayerControls : MonoBehaviour
     private float destinationY;
     private float destinationZ;
 
-    public float forceScaleFactor = 7;
+    public float forceScaleFactor;
 
     public float laneDistance;
     public int lane = 0;
@@ -27,6 +27,8 @@ public class PlayerControls : MonoBehaviour
 
     // Update is called once per frame
     void Update(){
+        destinationY = destinationY * 0.95f;
+
         Vector3 force = new Vector3(
             destinationX - transform.position.x, 
             destinationY - transform.position.y,
@@ -57,5 +59,9 @@ public class PlayerControls : MonoBehaviour
             lane--;
             destinationX = lane * laneDistance;
         }
+    }
+
+    public void IncreaseYDestination(float value) {
+        this.destinationY += value;
     }
 }
