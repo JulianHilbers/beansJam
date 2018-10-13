@@ -9,13 +9,15 @@ public class ObstacleController : MonoBehaviour
     public List<GameObject> list;
 
     private List<Obstacle> cloneList = new List<Obstacle>();
+    private float[] lanes = new float[]{-2.5f, 0.0f, 2.5f};
 
 
     private void Start()
     {
         list.ForEach((GameObject obj) => {
             GameObject clone = Object.Instantiate(obj);
-            clone.transform.position = new Vector3(0, 0, 0);
+            int randomPos = Random.Range(0, lanes.Length);
+            clone.transform.position = new Vector3(lanes[randomPos], -10, 0);
 
             cloneList.Add(new Obstacle() {
                 transform = clone.transform,
@@ -33,7 +35,8 @@ public class ObstacleController : MonoBehaviour
                 obstacle.transform.Translate(Vector2.down * Time.deltaTime * speed);
                 
                 if (!obstacle.renderer.isVisible && obstacle.renderer.transform.position.y < -2f) {
-                    obstacle.transform.position = new Vector3(0, 10, 0);
+                    int randomPos = Random.Range(0, lanes.Length);
+                    obstacle.transform.position = new Vector3(lanes[randomPos], 10, 0);
                 }
             }
 
