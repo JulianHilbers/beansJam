@@ -806,6 +806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f599d1e946d24f73a2f281daf4fd7f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  yVelocity: 0
 --- !u!114 &1230533930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -952,8 +953,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad3bf5b190d7f4278946dadc822025ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: 5
   speed: 4
   list:
+  - {fileID: 1957589304316430, guid: 55ce93083c46c484fa5c3e3b571abda1, type: 2}
   - {fileID: 1957589304316430, guid: 55ce93083c46c484fa5c3e3b571abda1, type: 2}
 --- !u!4 &1394937615
 Transform:

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObstacleController : MonoBehaviour
 {
-    public int position = 2;
+    public float position = 20f;
     public int speed;
     public List<GameObject> list;
 
@@ -14,7 +14,7 @@ public class ObstacleController : MonoBehaviour
 
     private void Start()
     {
-        float lastYpos = -10;
+        float lastYpos = 10;
         int lastLane = 0;
         list.ForEach((GameObject obj) => {
             GameObject clone = Object.Instantiate(obj);
@@ -27,6 +27,7 @@ public class ObstacleController : MonoBehaviour
                 active = true,
                 renderer = clone.GetComponent<Renderer>()
             });
+
             lastYpos -= position;
             Debug.Log(lastYpos);
             lastLane = newLane;
