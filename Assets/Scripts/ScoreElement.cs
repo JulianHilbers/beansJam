@@ -16,6 +16,4 @@ public class ScoreElement : MonoBehaviour {
         }
         scoreText.text = score + "";
     }
-
-
 }

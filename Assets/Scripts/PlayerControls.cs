@@ -11,11 +11,12 @@ public class PlayerControls : MonoBehaviour
     public float forceScaleFactor;
 
     public float laneDistance;
-    public int lane = 0;
+    public int lane;
 
 
     private Animator animator;
     private Rigidbody2D rb2d;
+    public GameStats stats;
 
     void Start(){
         rb2d = GetComponent<Rigidbody2D>();
@@ -23,6 +24,7 @@ public class PlayerControls : MonoBehaviour
         destinationX = 0f;
         destinationY = 0f;
         destinationZ = 0f;
+        lane = stats.GetPlayerLane();
     } 
 
     // Update is called once per frame
@@ -49,6 +51,7 @@ public class PlayerControls : MonoBehaviour
             animator.SetTrigger("TurnRightTrigger");
             lane++;
             destinationX = lane * laneDistance;
+            stats.SetPlayerLane(lane);
         }
     }
 
@@ -58,6 +61,7 @@ public class PlayerControls : MonoBehaviour
             animator.SetTrigger("TurnLeftTrigger");
             lane--;
             destinationX = lane * laneDistance;
+            stats.SetPlayerLane(lane);
         }
     }
 

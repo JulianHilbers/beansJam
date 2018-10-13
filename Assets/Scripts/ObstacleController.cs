@@ -13,7 +13,7 @@ public class ObstacleController : MonoBehaviour
 
 
     private float waitedTime = 0;
-    private float[] lanes = new float[] { -2.5f, 0.0f, 2.5f };
+    private float[] lanes = new float[] { -2f, 0.0f, 2f };
 
     private bool initialized = false;
 
@@ -56,11 +56,11 @@ public class ObstacleController : MonoBehaviour
         clonedList.ForEach((GameObject obj) =>
         {
             if (!obj.GetComponent<Spawnable>().IsActive())
-            {
+            {  
                 int newLane = GetLane(lastLane);
                 obj.GetComponent<Spawnable>().ReSpawn(newLane);
                 lastLane = newLane;
-            }
+             }
 
             if(!obj.activeSelf) {
                 if (obj.GetComponent<PowerUp>().CooledDown()) {
@@ -90,4 +90,6 @@ public class ObstacleController : MonoBehaviour
             lastLane = newLane;
         });
     }
+
+   
 }
