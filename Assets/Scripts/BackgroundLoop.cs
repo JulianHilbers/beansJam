@@ -1,28 +1,39 @@
-﻿using System.Collections;
+﻿using UnityEngine;
 using System.Collections.Generic;
-using UnityEngine;
 
-public class BackgroundLoop : MonoBehaviour {
+public class BackgroundLoop : MonoBehaviour
+{
+    public float VerticalLength { get; set; }
+    public List<Sprite> sprites;
 
     private BoxCollider2D streetCollider;
-    public float verticalLength;
+    private SpriteRenderer spriteRenderer;
 
-    // Use this for initialization
-    void Awake () {
+    void Awake()
+    {
         streetCollider = GetComponent<BoxCollider2D>();
-        verticalLength = streetCollider.size.y;
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
-    
-    // Update is called once per frame
-    void Update () {
-        if (transform.position.y < - verticalLength){
+
+    void Update()
+    {
+        if (transform.position.y < -VerticalLength)
+        {
             Reposition();
+            SwitchSprite();
         }
     }
 
-    void Reposition(){
+    private void SwitchSprite()
+    {
+        Debug.Log(Random.Range(0, sprites.Count));
+        spriteRenderer.sprite = sprites[Random.Range(0, sprites.Count)];
+    }
+
+    public void Reposition()
+    {
         Vector3 pos = transform.position = transform.position;
-        pos.y += verticalLength * 2f;
+        pos.y += VerticalLength * 2f;
         transform.position = pos;
     }
 }
