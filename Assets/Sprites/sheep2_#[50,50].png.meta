@@ -1,27 +1,21 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 8cfde87237eb448159da612e58b884a7
 TextureImporter:
-  fileIDToRecycleName: {}
-=======
-guid: ee7648f1dd5ce284f81459c2d36c0117
-TextureImporter:
   fileIDToRecycleName:
-    21300000: sheep2_0
-    21300002: sheep2_1
-    21300004: sheep2_2
-    21300006: sheep2_3
-    21300008: sheep2_4
-    21300010: sheep2_5
-    21300012: sheep2_6
-    21300014: sheep2_7
-    21300016: sheep2_8
-    21300018: sheep2_9
-    21300020: sheep2_10
-    21300022: sheep2_11
-    21300024: sheep2_12
-    21300026: sheep2_13
->>>>>>> Lamb animation and controller added.
+    21300000: sheep2_#[50,50]_0
+    21300002: sheep2_#[50,50]_1
+    21300004: sheep2_#[50,50]_2
+    21300006: sheep2_#[50,50]_3
+    21300008: sheep2_#[50,50]_4
+    21300010: sheep2_#[50,50]_5
+    21300012: sheep2_#[50,50]_6
+    21300014: sheep2_#[50,50]_7
+    21300016: sheep2_#[50,50]_8
+    21300018: sheep2_#[50,50]_9
+    21300020: sheep2_#[50,50]_10
+    21300022: sheep2_#[50,50]_11
+    21300024: sheep2_#[50,50]_12
+    21300026: sheep2_#[50,50]_13
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +34,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
@@ -56,15 +50,11 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
-  spriteMode: 1
-=======
   spriteMode: 2
->>>>>>> Lamb animation and controller added.
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -93,15 +83,6 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-<<<<<<< HEAD
-  spriteSheet:
-    serializedVersion: 2
-    sprites: []
-    outline: []
-    physicsShape: []
-    bones: []
-    spriteID: 4b5fd41e4304f4e4e8fb936015cbf906
-=======
   - serializedVersion: 2
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -128,7 +109,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sheep2_0
+      name: sheep2_#[50,50]_0
       rect:
         serializedVersion: 2
         x: 0
@@ -142,13 +123,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d2f7a35a99c18442b3c8a572aa39dcf
+      spriteID: d3f4e2fea52a61f4bafaec20cbaee1d9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheep2_1
+      name: sheep2_#[50,50]_1
       rect:
         serializedVersion: 2
         x: 50
@@ -162,13 +143,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3979d08bf766af84097ee267d4df1cd8
+      spriteID: 616a230447e46474db327ccc66f07501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheep2_2
+      name: sheep2_#[50,50]_2
       rect:
         serializedVersion: 2
         x: 100
@@ -182,13 +163,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11d3f587e72f7d342aacaf51f609e9a5
+      spriteID: e40401f578af4c34da876bdd2d826352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheep2_3
+      name: sheep2_#[50,50]_3
       rect:
         serializedVersion: 2
         x: 0
@@ -202,13 +183,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 966e2d52038920541b4ede9aa5fc0488
+      spriteID: fe9f47298eb61e74aa9b43df26133f92
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheep2_4
+      name: sheep2_#[50,50]_4
       rect:
         serializedVersion: 2
         x: 50
@@ -222,13 +203,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28f56c1e54e353e4fa70a6ca4fc19b17
+      spriteID: 6f3df3c6d01e60f41a146384f38f8541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheep2_5
+      name: sheep2_#[50,50]_5
       rect:
         serializedVersion: 2
         x: 100
@@ -242,13 +223,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84d5be7c651474d439816254a656b2e9
+      spriteID: a5424bfa38a7f8a428e57dd567c84476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheep2_6
+      name: sheep2_#[50,50]_6
       rect:
         serializedVersion: 2
         x: 0
@@ -262,13 +243,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a06039724c89c2948990fd2e249f508a
+      spriteID: 39205054e90064e4baa1592e31c97116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheep2_7
+      name: sheep2_#[50,50]_7
       rect:
         serializedVersion: 2
         x: 50
@@ -282,13 +263,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e7fe28f53f40004192330bbb361721a
+      spriteID: 46f2af56e08d3b94a8817ed6117021d2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheep2_8
+      name: sheep2_#[50,50]_8
       rect:
         serializedVersion: 2
         x: 100
@@ -302,13 +283,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 257ed2dc04d56f7489c0f449e056e0c8
+      spriteID: 4fecc688c2354fb4d8a86b0c80d7ad96
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheep2_9
+      name: sheep2_#[50,50]_9
       rect:
         serializedVersion: 2
         x: 0
@@ -322,13 +303,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29a9f66ad5d4f6a4b95872149e401c9b
+      spriteID: 2bf870f1ff9f3f745b3c1549529ab17c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheep2_10
+      name: sheep2_#[50,50]_10
       rect:
         serializedVersion: 2
         x: 50
@@ -342,13 +323,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8968ce5df105f044afed05f8f77169c
+      spriteID: ac5de0cd6379ba6419be07333257b924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheep2_11
+      name: sheep2_#[50,50]_11
       rect:
         serializedVersion: 2
         x: 100
@@ -362,13 +343,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e014dc49a7a0cfa4fbfd1aadf8bf9288
+      spriteID: 39298f67ff98cfe43992e7da2dddb9cc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheep2_12
+      name: sheep2_#[50,50]_12
       rect:
         serializedVersion: 2
         x: 0
@@ -382,13 +363,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dac9edf02e39ca4f9f262bc64745b88
+      spriteID: 2cac4e4dbd6c0554ebd7c9b49096bdc0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheep2_13
+      name: sheep2_#[50,50]_13
       rect:
         serializedVersion: 2
         x: 50
@@ -402,7 +383,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c21e8e985da7d07478cc7f6168d91d08
+      spriteID: 3f4ec89d566ad554bb9ebc687fb86154
       vertices: []
       indices: 
       edges: []
@@ -410,8 +391,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 69ef15f379a116041b164adba3b40405
->>>>>>> Lamb animation and controller added.
+    spriteID: 01c9cd99b903e2a489a84c286e31177a
     vertices: []
     indices: 
     edges: []
