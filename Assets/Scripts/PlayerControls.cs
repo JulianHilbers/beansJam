@@ -10,7 +10,7 @@ public class PlayerControls : MonoBehaviour
 
     public float forceScaleFactor = 5;
 
-    public float laneDistance = 3f;
+    public float laneDistance = 2f;
     public int lane = 0;
 
 

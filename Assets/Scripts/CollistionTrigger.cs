@@ -13,8 +13,7 @@ public class CollistionTrigger : MonoBehaviour {
         rb2d = GetComponent<Rigidbody2D>();
 	}
 
-    void OnTriggerEnter(Collider other)
-    {
+    void OnTriggerEnter2D(Collider2D other){
         Debug.Log("Something has entered this zone.");
     }
 
