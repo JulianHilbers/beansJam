@@ -28,7 +28,7 @@ public class Spawnable : MonoBehaviour
         active = true;
     }
 
-    public bool isActive()
+    public bool IsActive()
     {
         return active;
     }

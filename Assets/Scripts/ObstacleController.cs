@@ -17,11 +17,6 @@ public class ObstacleController : MonoBehaviour
 
     private bool initialized = false;
 
-    private void Start()
-    {
-
-    }
-
     private int GetLane(int lastLane)
     {
         bool searchingNewLane = true;
@@ -60,7 +55,7 @@ public class ObstacleController : MonoBehaviour
         int lastLane = 0;
         clonedList.ForEach((GameObject obj) =>
         {
-            if (!obj.GetComponent<Spawnable>().isActive())
+            if (!obj.GetComponent<Spawnable>().IsActive())
             {
                 int newLane = GetLane(lastLane);
                 obj.GetComponent<Spawnable>().ReSpawn(newLane);

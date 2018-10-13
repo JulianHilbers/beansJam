@@ -4,24 +4,15 @@ using UnityEngine;
 
 public class LambController : MonoBehaviour
 {
-
     public float moveSteps = 1f;
 
-
     private Rigidbody2D rBody;
+    private float initialY;
 
     private void Start()
     {
+        initialY = transform.position.y;
         rBody = GetComponent<Rigidbody2D>();
-    }
-
-    void Update()
-    {
-        if (Input.GetKey(KeyCode.UpArrow))
-            MoveUp();
-
-        if (Input.GetKey(KeyCode.DownArrow))
-            MoveDown();
     }
 
     public void MoveUp()
@@ -31,6 +22,7 @@ public class LambController : MonoBehaviour
 
     public void MoveDown()
     {
-        rBody.AddForce(Vector2.down * moveSteps);
+        if (transform.position.y >= initialY)
+            rBody.AddForce(Vector2.down * moveSteps);
     }
 }
