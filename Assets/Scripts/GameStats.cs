@@ -8,7 +8,7 @@ public class GameStats : ScriptableObject {
     private List<int> highscores;
 
     public void OnEnable() {
-        highscores = new List<int>();
+        highscores = new List<int>() {100, 200, 50};
     }
 
     public void SetCurrentScore(int newScore) {
@@ -23,6 +23,7 @@ public class GameStats : ScriptableObject {
     }
 
     public List<int> GetHighscores() {
+        highscores.Sort((a, b) => -1 * a.CompareTo(b));
         return highscores;
     }
 }
