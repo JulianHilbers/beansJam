@@ -10,6 +10,6 @@ public class Score : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         score++;
-        gameObject.GetComponent<Text>().text = score + " km";	
+        gameObject.GetComponent<Text>().text = score + " m";	
 	}
 }
