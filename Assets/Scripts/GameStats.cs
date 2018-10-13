@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
+[CreateAssetMenu(menuName = "GameStats/Stats")]
 public class GameStats : ScriptableObject {
-    private int CurrentScore;
+    private int currentScore;
 
     private List<int> highscores;
 
@@ -11,14 +12,14 @@ public class GameStats : ScriptableObject {
     }
 
     public void SetCurrentScore(int newScore) {
-        if (CurrentScore > 0) {
-            highscores.Add(CurrentScore);
+        if (currentScore > 0) {
+            highscores.Add(currentScore);
         }
-        CurrentScore = newScore;
+        currentScore = newScore;
     }
 
     public int GetCurrentScore() {
-        return CurrentScore;
+        return currentScore;
     }
 
     public List<int> GetHighscores() {
