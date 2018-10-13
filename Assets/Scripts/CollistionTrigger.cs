@@ -10,6 +10,11 @@ public class CollistionTrigger : MonoBehaviour
     private Animator animator;
     public float testY;
 
+    [Header("Audio")]
+    public AudioSource soundCrash;
+    public AudioSource soundPowerUp;
+
+
     void Start()
     {
         bc2d = GetComponent<BoxCollider2D>();
@@ -23,9 +28,9 @@ public class CollistionTrigger : MonoBehaviour
         if (other.tag.Equals("PowerUp"))
         {
             spawnable.GetComponent<PowerUp>().OnHit();
-            //rb2d.AddForce(new Vector3(0, +1000));
             GetComponent<PlayerControls>().IncreaseYDestination(testY);
             lambController.MoveDown();
+            soundPowerUp.Play();
         }
         if (other.tag.Equals("Obstacle"))
         {
@@ -35,14 +40,8 @@ public class CollistionTrigger : MonoBehaviour
             animator.SetTrigger("CrashTrigger");
             string colliderTag = other.tag;
             lambController.MoveUp();
+            soundCrash.Play();
         }
-
-    }
-
-
-    // Update is called once per frame
-    void Update()
-    {
 
     }
 }

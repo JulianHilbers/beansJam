@@ -4,6 +4,7 @@ using System.Collections;
 public class Spawnable : MonoBehaviour
 {
     public GameStats stats;
+    public float respawnAt = -6f;
 
     protected bool active = true;
     private float[] lanes = new float[] { -2.5f, 0.0f, 2.5f };
@@ -22,26 +23,27 @@ public class Spawnable : MonoBehaviour
             transform.Translate(Vector2.down * Time.deltaTime * speed);
         }
 
-        if (!renderer.isVisible && renderer.transform.position.y < -2f)
+        if (renderer.transform.position.y <= respawnAt)
         {
+            Debug.Log("BAAAAM");
             active = false;
         }
     }
 
-    public virtual void ReSpawn(int lane){
+    public virtual void ReSpawn(int lane)
+    {
         IncrementNoObstaclePlayerLaneCountIfStillOnLane();
         int nextLane = lane;
 
         //spawn an obsticle in player lane if he stays to long on one lane
         if (stats.GetPlayerLaneCount() > Random.Range(2, 4))
         {
-            Debug.Log("MOOOOOOVEEEE!!!");
             stats.PlayerLaneReset();
             nextLane = stats.GetPlayerLane() + 1;
         }
         transform.position = new Vector3(lanes[nextLane], 10, 0);
         active = true;
-       
+
     }
 
     public bool IsActive()
@@ -49,14 +51,17 @@ public class Spawnable : MonoBehaviour
         return active;
     }
 
-    private void IncrementNoObstaclePlayerLaneCountIfStillOnLane(){
+    private void IncrementNoObstaclePlayerLaneCountIfStillOnLane()
+    {
         lastPlayerLane = currentPlayerLane;
         currentPlayerLane = stats.GetPlayerLane();
 
-        if (currentPlayerLane == lastPlayerLane){
+        if (currentPlayerLane == lastPlayerLane)
+        {
             stats.PlayerLaneIncrement();
         }
-        else{
+        else
+        {
             stats.PlayerLaneReset();
         }
     }

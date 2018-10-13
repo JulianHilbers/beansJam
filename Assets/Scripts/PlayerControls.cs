@@ -13,6 +13,9 @@ public class PlayerControls : MonoBehaviour
     public float laneDistance;
     public int lane;
 
+    [Header("Audio")]
+    public AudioSource soundLeft;
+    public AudioSource soundRight;
 
     private Animator animator;
     private Rigidbody2D rb2d;
@@ -27,7 +30,6 @@ public class PlayerControls : MonoBehaviour
         lane = stats.GetPlayerLane();
     } 
 
-    // Update is called once per frame
     void Update(){
         destinationY = destinationY * 0.95f;
 
@@ -52,6 +54,7 @@ public class PlayerControls : MonoBehaviour
             lane++;
             destinationX = lane * laneDistance;
             stats.SetPlayerLane(lane);
+            soundRight.Play();
         }
     }
 
@@ -62,6 +65,7 @@ public class PlayerControls : MonoBehaviour
             lane--;
             destinationX = lane * laneDistance;
             stats.SetPlayerLane(lane);
+            soundLeft.Play();
         }
     }
 
