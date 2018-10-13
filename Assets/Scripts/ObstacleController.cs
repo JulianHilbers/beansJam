@@ -29,7 +29,6 @@ public class ObstacleController : MonoBehaviour
             });
 
             lastYpos -= position;
-            Debug.Log(lastYpos);
             lastLane = newLane;
         });
     }
