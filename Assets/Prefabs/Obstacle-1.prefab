@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 212487471912371382}
   - component: {fileID: 114623825980084432}
   m_Layer: 0
-  m_Name: Obstacle-1 1
+  m_Name: Obstacle-1
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,6 +78,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268e1d42e866946e9960c56315552892, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stats: {fileID: 11400000, guid: 8eeb775317ee54a82875ae3ceba73153, type: 2}
   speed: 4
 --- !u!212 &212487471912371382
 SpriteRenderer:

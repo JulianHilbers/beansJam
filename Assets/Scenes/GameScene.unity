@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f693b1d550a134e63aa44be5d5fadd53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  verticalLength: 0
+  sprites: []
 --- !u!114 &12394800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -478,7 +478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f693b1d550a134e63aa44be5d5fadd53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  verticalLength: 0
+  sprites: []
 --- !u!114 &860674665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -745,6 +745,7 @@ MonoBehaviour:
   forceScaleFactor: 15
   laneDistance: 2
   lane: 0
+  stats: {fileID: 11400000, guid: 8eeb775317ee54a82875ae3ceba73153, type: 2}
 --- !u!95 &1230533931
 Animator:
   serializedVersion: 3
@@ -881,8 +882,8 @@ MonoBehaviour:
   waitUntilFirtstSpawn: 4
   speed: 4
   list:
-  - {fileID: 1957589304316430, guid: 55ce93083c46c484fa5c3e3b571abda1, type: 2}
-  - {fileID: 1957589304316430, guid: 55ce93083c46c484fa5c3e3b571abda1, type: 2}
+  - {fileID: 1575075870832498, guid: 7220b6efaf6154fb0b28c460c295fd18, type: 2}
+  - {fileID: 1497024090850284, guid: a4e01cf0af2854631b3b9a625bbd1e7e, type: 2}
   - {fileID: 1122191567700006, guid: 645ba1bfd048e447ebd1c59cad7cbfaa, type: 2}
   clonedList: []
 --- !u!4 &1394937615
