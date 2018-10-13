@@ -10,13 +10,7 @@ public class GameStats : ScriptableObject {
     private int playerLaneCount;
 
     public void OnEnable() {
-<<<<<<< HEAD
-
-        highscores = new List<int>() {100, 200, 50};
-        playerLane = 0;
-=======
         highscores = new List<int>();
->>>>>>> save current score in gamestats
     }
 
     public void SetCurrentScore(int newScore) {
