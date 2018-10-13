@@ -515,6 +515,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1318766385}
+  - {fileID: 1394937615}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -682,8 +683,8 @@ GameObject:
   - component: {fileID: 1230533926}
   - component: {fileID: 1230533925}
   - component: {fileID: 1230533930}
-  - component: {fileID: 1230533931}
   - component: {fileID: 1230533929}
+  - component: {fileID: 1230533931}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -707,8 +708,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.58, y: 3.32}
-    newSize: {x: 1.58, y: 3.32}
+    oldSize: {x: 0.8, y: 0.8}
+    newSize: {x: 0.8, y: 0.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -776,7 +777,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.58, y: 3.32}
+  m_Size: {x: 0.8, y: 0.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -790,7 +791,7 @@ Transform:
   m_GameObject: {fileID: 1230533924}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -6, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -818,7 +819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forceScaleFactor: 5
-  laneDistance: 3
+  laneDistance: 2
   lane: 0
 --- !u!95 &1230533931
 Animator:
@@ -953,23 +954,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: 5
+  waitUntilFirtstSpawn: 4
   speed: 4
   list:
   - {fileID: 1957589304316430, guid: 55ce93083c46c484fa5c3e3b571abda1, type: 2}
   - {fileID: 1957589304316430, guid: 55ce93083c46c484fa5c3e3b571abda1, type: 2}
   - {fileID: 1122191567700006, guid: 645ba1bfd048e447ebd1c59cad7cbfaa, type: 2}
+  clonedList: []
 --- !u!4 &1394937615
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1394937613}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 299.49164, y: 134.14331, z: 11.447785}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -100.50836, y: -505.8567, z: 11.447785}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 406991406}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1408076618
 GameObject:

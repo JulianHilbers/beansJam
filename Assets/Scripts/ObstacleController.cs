@@ -5,32 +5,21 @@ using UnityEngine;
 public class ObstacleController : MonoBehaviour
 {
     public float position = 20f;
+    public float waitUntilFirtstSpawn = 4f;
+
     public int speed;
     public List<GameObject> list;
+    public List<GameObject> clonedList;
 
-    private List<Obstacle> cloneList = new List<Obstacle>();
-    private float[] lanes = new float[]{-2.5f, 0.0f, 2.5f};
 
+    private float waitedTime = 0;
+    private float[] lanes = new float[] { -2.5f, 0.0f, 2.5f };
+
+    private bool initialized = false;
 
     private void Start()
     {
-        float lastYpos = 10;
-        int lastLane = 0;
-        list.ForEach((GameObject obj) => {
-            GameObject clone = Object.Instantiate(obj);
 
-            int newLane = GetLane(lastLane);
-            clone.transform.position = new Vector3(lanes[newLane], lastYpos, 0);
-
-            cloneList.Add(new Obstacle() {
-                transform = clone.transform,
-                active = true,
-                renderer = clone.GetComponent<Renderer>()
-            });
-
-            lastYpos -= position;
-            lastLane = newLane;
-        });
     }
 
     private int GetLane(int lastLane)
@@ -48,28 +37,53 @@ public class ObstacleController : MonoBehaviour
         return newLane;
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        int lastLane = 0;
-        cloneList.ForEach((Obstacle obstacle) => {
-            if (obstacle.active) {
-                obstacle.transform.Translate(Vector2.down * Time.deltaTime * speed);
-                
-                if (!obstacle.renderer.isVisible && obstacle.renderer.transform.position.y < -2f) {
-                    int newLane = GetLane(lastLane);
-                    obstacle.transform.position = new Vector3(lanes[newLane], 10, 0);
-                    lastLane = newLane;
-                }
+        if (waitedTime < waitUntilFirtstSpawn)
+            waitedTime += Time.deltaTime;
+
+
+        if (waitedTime >= waitUntilFirtstSpawn)
+        {
+            if (!initialized)
+            {
+                initialized = true;
+                InitializeObstacles();
             }
 
+            MoveObstacles();
+        }
+    }
+
+    private void MoveObstacles()
+    {
+        int lastLane = 0;
+        clonedList.ForEach((GameObject obj) =>
+        {
+            if (!obj.GetComponent<Spawnable>().isActive())
+            {
+                int newLane = GetLane(lastLane);
+                obj.GetComponent<Spawnable>().ReSpawn(newLane);
+                lastLane = newLane;
+            }
         });
     }
-}
 
-[System.Serializable]
-public class Obstacle
-{
-    public Transform transform;
-    public bool active;
-    public Renderer renderer;
+    private void InitializeObstacles()
+    {
+        float lastYpos = 14;
+        int lastLane = 0;
+        list.ForEach((GameObject obj) =>
+        {
+            GameObject clone = Instantiate(obj);
+
+            int newLane = GetLane(lastLane);
+            clone.transform.position = new Vector3(lanes[newLane], lastYpos, 0);
+
+            clonedList.Add(clone);
+
+            lastYpos -= position;
+            lastLane = newLane;
+        });
+    }
 }

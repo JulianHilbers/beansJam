@@ -13,9 +13,13 @@ public class CollistionTrigger : MonoBehaviour {
         rb2d = GetComponent<Rigidbody2D>();
 	}
 
-    void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("Something has entered this zone.");
+    void OnTriggerEnter2D(Collider2D other){
+        Spawnable spawnable = other.GetComponent<Spawnable>();
+        if (other.tag.Equals("PowerUp")){
+            spawnable.GetComponent<PowerUp>().OnHit();
+        }
+        string colliderTag = other.tag;
+        Debug.Log("Something has entered this zone: "+ colliderTag);
     }
 
     // Update is called once per frame
