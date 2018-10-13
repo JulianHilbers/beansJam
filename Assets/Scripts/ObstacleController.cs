@@ -61,6 +61,15 @@ public class ObstacleController : MonoBehaviour
                 obj.GetComponent<Spawnable>().ReSpawn(newLane);
                 lastLane = newLane;
             }
+
+            if(!obj.activeSelf) {
+                if (obj.GetComponent<PowerUp>().CooledDown()) {
+                    obj.SetActive(true);
+                    int newLane = GetLane(lastLane);
+                    obj.GetComponent<Spawnable>().ReSpawn(newLane);
+                    lastLane = newLane;
+                }
+            }
         });
     }
 
