@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c61513fccdb322243b75f3163151e864, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerControls: {fileID: 0}
+  playerControls: {fileID: 1069993183}
   swipeVerticalRecognition: 30
   swipeHorizontalRecognition: 30
 --- !u!4 &187523111
