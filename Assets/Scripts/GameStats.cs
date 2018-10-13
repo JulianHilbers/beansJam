@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 [CreateAssetMenu(menuName = "GameStats/Stats")]
 public class GameStats : ScriptableObject {
-    private int currentScore;
+    private int currentScore = 20;
 
     private List<int> highscores;
 
@@ -19,7 +19,7 @@ public class GameStats : ScriptableObject {
     }
 
     public int GetCurrentScore() {
-        return currentScore;
+        return 20;
     }
 
     public List<int> GetHighscores() {
