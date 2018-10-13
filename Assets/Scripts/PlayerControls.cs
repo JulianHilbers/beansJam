@@ -4,46 +4,53 @@ using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
 {
-    private float yVelocity = 0.0f;
-    private float laneDistance = 3f;
+    private float destinationX;
+    private float destinationY;
+    private float destinationZ;
+
+    public float forceScaleFactor = 5;
+
+    public float laneDistance = 3f;
     public int lane = 0;
-    public float absPos;
+
+
 
     private Rigidbody2D rb2d;
 
-    public float velo;
-    void Start()
-    {
+    void Start(){
         rb2d = GetComponent<Rigidbody2D>();
-    }
+        destinationX = 0f;
+        destinationY = 0f;
+        destinationZ = 0f;
+    } 
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update(){
+        Vector3 force = new Vector3(
+            destinationX - transform.position.x, 
+            destinationY - transform.position.y,
+            destinationZ - transform.position.z);
 
-        float newPosition = Mathf.SmoothDamp(transform.position.x, lane * laneDistance, ref yVelocity, 0.3f);
-        transform.position = new Vector3(newPosition, transform.position.y, 0);
-
-            if (Input.GetKeyDown(KeyCode.RightArrow))
-                IncreaseLane();
-            if (Input.GetKeyDown(KeyCode.LeftArrow))
-                DecreaseLane();
+        rb2d.AddForce(force * forceScaleFactor);
+  
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+            IncreaseLane();
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+            DecreaseLane();
 
     }
 
-    public void IncreaseLane()
-    {
-        if (lane < 1)
-        {
+    public void IncreaseLane(){
+        if (lane < 1){
             lane++;
+            destinationX = lane * laneDistance;
         }
     }
 
-    public void DecreaseLane()
-    {
-        if (lane > -1)
-        {
+    public void DecreaseLane(){
+        if (lane > -1){
             lane--;
+            destinationX = lane * laneDistance;
         }
     }
 }
