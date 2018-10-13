@@ -5,11 +5,13 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour {
 
+    public GameStats gameStats;
     private int score = 0;
 
 	// Update is called once per frame
 	void Update () {
         score++;
-        gameObject.GetComponent<Text>().text = score + " m";	
+        gameObject.GetComponent<Text>().text = score + " m";
+        gameStats.SetCurrentScore(score);
 	}
 }

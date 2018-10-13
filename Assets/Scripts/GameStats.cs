@@ -3,27 +3,31 @@ using System.Collections.Generic;
 
 [CreateAssetMenu(menuName = "GameStats/Stats")]
 public class GameStats : ScriptableObject {
-    private int currentScore = 20;
+    private int currentScore = 0;
 
     private List<int> highscores;
     private int playerLane;
     private int playerLaneCount;
 
     public void OnEnable() {
-
-        highscores = new List<int>() {100, 200, 50};
-        playerLane = 0;
+        highscores = new List<int>();
     }
 
     public void SetCurrentScore(int newScore) {
-        if (currentScore > 0) {
-            highscores.Add(currentScore);
-        }
         currentScore = newScore;
     }
 
+    public void SetNewHighScore(int newScore) {
+        currentScore = newScore;
+
+        if (currentScore > 0)
+        {
+            highscores.Add(currentScore);
+        }
+    }
+
     public int GetCurrentScore() {
-        return 20;
+        return currentScore;
     }
 
     public List<int> GetHighscores() {
