@@ -1,27 +1,25 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class CurrentScore : MonoBehaviour {
-
+public class CurrentScore : MonoBehaviour
+{
+    public Text textComp;
+    public Text scoreComp;
     public GameStats gamestats;
 
-	void Start()
+    void Start()
     {
-        GameObject.Find("Score").GetComponent<Text>().text = gamestats.GetCurrentScore() + " m";
-
-
+        textComp.text = gamestats.GetCurrentScore() + " m";
 
         string text = "";
         int place = 1;
 
-
-
-        gamestats.GetHighscores().ForEach((int score) => {
-            text += place + "\t " + score + "\n";
+        gamestats.GetHighscores().ForEach((int score) =>
+        {
+            text += place + "\t " + score + " \t Punkte\n";
             place++;
         });
 
-        GameObject.Find("ScoreList").GetComponent<Text>().text = text;
-
+        scoreComp.text = text;
     }
 }

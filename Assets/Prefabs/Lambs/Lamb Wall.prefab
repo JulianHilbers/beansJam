@@ -2339,8 +2339,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSteps: 70
-  failPosition: -4
-  sceneName: Scene-Highscroe
+  failPosition: -3.5
+  stats: {fileID: 11400000, guid: 8eeb775317ee54a82875ae3ceba73153, type: 2}
+  sceneName: Scene-Highscore
   SceneLoader: {fileID: 114188812398505790}
 --- !u!212 &212008335522728064
 SpriteRenderer:
