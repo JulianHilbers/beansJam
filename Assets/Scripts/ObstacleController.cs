@@ -7,8 +7,8 @@ public class ObstacleController : MonoBehaviour
     public float position = 20f;
     public int speed;
     public List<GameObject> list;
+    public List<GameObject> clonedList;
 
-    private List<Obstacle> cloneList = new List<Obstacle>();
     private float[] lanes = new float[]{-2.5f, 0.0f, 2.5f};
 
 
@@ -22,11 +22,7 @@ public class ObstacleController : MonoBehaviour
             int newLane = GetLane(lastLane);
             clone.transform.position = new Vector3(lanes[newLane], lastYpos, 0);
 
-            cloneList.Add(new Obstacle() {
-                transform = clone.transform,
-                active = true,
-                renderer = clone.GetComponent<Renderer>()
-            });
+            clonedList.Add(clone);
 
             lastYpos -= position;
             lastLane = newLane;
@@ -48,28 +44,15 @@ public class ObstacleController : MonoBehaviour
         return newLane;
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         int lastLane = 0;
-        cloneList.ForEach((Obstacle obstacle) => {
-            if (obstacle.active) {
-                obstacle.transform.Translate(Vector2.down * Time.deltaTime * speed);
-                
-                if (!obstacle.renderer.isVisible && obstacle.renderer.transform.position.y < -2f) {
-                    int newLane = GetLane(lastLane);
-                    obstacle.transform.position = new Vector3(lanes[newLane], 10, 0);
-                    lastLane = newLane;
-                }
+        clonedList.ForEach((GameObject obj) => {
+            if (!obj.GetComponent<Spawnable>().isActive()) {
+                int newLane = GetLane(lastLane);
+                obj.GetComponent<Spawnable>().ReSpawn(newLane);
+                lastLane = newLane;
             }
-
         });
     }
-}
-
-[System.Serializable]
-public class Obstacle
-{
-    public Transform transform;
-    public bool active;
-    public Renderer renderer;
 }
