@@ -14,6 +14,10 @@ public class CollistionTrigger : MonoBehaviour {
 	}
 
     void OnTriggerEnter2D(Collider2D other){
+        Spawnable spawnable = other.GetComponent<Spawnable>();
+        if (other.tag.Equals("PowerUp")){
+            spawnable.GetComponent<PowerUp>().OnHit();
+        }
         string colliderTag = other.tag;
         Debug.Log("Something has entered this zone: "+ colliderTag);
     }

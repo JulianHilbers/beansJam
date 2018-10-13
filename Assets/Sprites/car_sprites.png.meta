@@ -1,7 +1,13 @@
 fileFormatVersion: 2
 guid: 233cc15b886da4bfdafb83d303bd2f9f
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: car_sprites_0
+    21300002: car_sprites_1
+    21300004: car_sprites_2
+    21300006: car_sprites_3
+    21300008: car_sprites_4
+    21300010: car_sprites_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +75,162 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: car_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 933
+        width: 401
+        height: 467
+      alignment: 9
+      pivot: {x: 0.44481942, y: 0.42892712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c3c5278ea1145b48979f87a3f0417a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 933.3334
+        width: 401
+        height: 466.66666
+      alignment: 9
+      pivot: {x: 0.42274746, y: 0.4336181}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331840bbf15254228a9f5c43dea416cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 467.33334
+        width: 401
+        height: 466.66666
+      alignment: 9
+      pivot: {x: 0.43930137, y: 0.50474167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee56495e5b42a4af4b66fc4ebff513be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 467.33334
+        width: 401
+        height: 466.66666
+      alignment: 9
+      pivot: {x: 0.41171136, y: 0.52844954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980aebb19eca645c4ac8b7415b699c92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.3333435
+        width: 401
+        height: 466.66666
+      alignment: 9
+      pivot: {x: 0.45033747, y: 0.5806069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e8565a7b5124719930660a1b0861ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1.3333435
+        width: 401
+        height: 466.66666
+      alignment: 9
+      pivot: {x: 0.42274746, y: 0.5806069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e85be65064c40d88b7e1bfdef17bcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
