@@ -167,7 +167,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 06433fc1420ac43c09e3470e77c8196c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 221629beddc27e842be1e440f6a974fe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -330,6 +330,7 @@ GameObject:
   - component: {fileID: 1608855051}
   - component: {fileID: 1608855050}
   - component: {fileID: 1608855053}
+  - component: {fileID: 1608855055}
   - component: {fileID: 1608855054}
   m_Layer: 0
   m_Name: Main Camera
@@ -407,7 +408,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6ec9181ebef9d4e8ba1464dd82a45889, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b7990952c4be3e04781b876aa66a5ec8, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -501,13 +502,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1608855049}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5312f0ecf9044c79804ee413cf8a12a, type: 3}
+  m_Script: {fileID: 11500000, guid: 23c58344c933d7d45ba9294fdf5dddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneLoader: {fileID: 114379262210815980, guid: 95871e32f75d04ba5aa9f2f9ae6f108c,
-    type: 2}
+  sceneLoader: {fileID: 1608855055}
   sceneName: Scene-Start
-  wait: 1
+  wait: 0
+--- !u!114 &1608855055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1608855049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af9002ce390e2406f9c80f514f7386dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1951021890
 GameObject:
   m_ObjectHideFlags: 0
