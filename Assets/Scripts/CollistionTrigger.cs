@@ -5,17 +5,16 @@ public class CollistionTrigger : MonoBehaviour
 {
     public LambController lambController;
     public GameObject deadAnimation;
-
-    private Rigidbody2D rb2d;
+    
     public float nextY;
+    public float waitUntilEnd = 1.5f;
 
     [Header("Audio")]
     public AudioSource soundCrash;
     public AudioSource soundPowerUp;
 
-
-    private float waitUntilEnd = 1.5f;
     private float waited = 0;
+    private Rigidbody2D rb2d;
 
     void Start()
     {
