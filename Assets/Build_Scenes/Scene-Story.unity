@@ -1080,7 +1080,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1641369432}
-  - component: {fileID: 1641369435}
   - component: {fileID: 1641369434}
   - component: {fileID: 1641369433}
   - component: {fileID: 1641369436}
@@ -1135,7 +1134,7 @@ AudioSource:
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
-  BypassReverbZones: 0
+  BypassReverbZones: 1
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1220,21 +1219,6 @@ MonoBehaviour:
   timeTillDoorSound: 6.2
   timeTillGameStart: 7
   chapterController: {fileID: 1143674627}
---- !u!114 &1641369435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1641369431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44984f02967e347f0a30b75b3f1f1066, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doorSound: {fileID: 0}
-  timeTillDoorSound: 0
-  timeTillGameStart: 0
-  chapterController: {fileID: 0}
 --- !u!82 &1641369436
 AudioSource:
   m_ObjectHideFlags: 0
