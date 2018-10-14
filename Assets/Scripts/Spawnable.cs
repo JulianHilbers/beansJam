@@ -6,7 +6,7 @@ public class Spawnable : MonoBehaviour
     public float respawnAt = -6f;
 
     protected bool active = true;
-    private float[] lanes = new float[] { -2.5f, 0.0f, 2.5f };
+    private float[] lanes = new float[] { -2.5f, 0, 2.5f };
     public float speed = 3.5f;
 
     private int lastPlayerLane;
@@ -15,6 +15,7 @@ public class Spawnable : MonoBehaviour
 
     void FixedUpdate()
     {
+
         Renderer renderer = gameObject.GetComponent<Renderer>();
 
         if (active)
@@ -32,13 +33,13 @@ public class Spawnable : MonoBehaviour
     {
         IncrementNoObstaclePlayerLaneCountIfStillOnLane();
         int nextLane = lane;
-
         //spawn an obsticle in player lane if he stays to long on one lane
-        if (stats.GetPlayerLaneCount() > Random.Range(2, 4))
+        if (stats.GetPlayerLaneCount() > Random.Range(1, 3) && !GetComponent<PowerUp>())
         {
             stats.PlayerLaneReset();
             nextLane = stats.GetPlayerLane() + 1;
         }
+
         transform.position = new Vector3(lanes[nextLane], 10, 0);
         active = true;
 

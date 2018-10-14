@@ -4,20 +4,24 @@ using UnityEngine;
 
 public class PowerUp : Spawnable
 {
-    public float coolDownPeriodInSecs = 5f;
     private float coolDown = 0f;
+    private bool isOnTrack = true; 
 
     public void OnHit() {
-        active = false;
-        gameObject.SetActive(false);
-        coolDown = Time.time + coolDownPeriodInSecs;
+        GetComponent<Animator>().SetTrigger("BottleBreak");
+        this.isOnTrack = false;
     }
 
+    public override void ReSpawn(int lane){
+        GetComponent<Animator>().SetTrigger("BottleReset");
+        coolDown = Time.time + Random.Range(5, 15);
+        base.ReSpawn(lane);
+        this.isOnTrack = true;
+    }
+
+
     public bool CooledDown() {
-        if (coolDown == 0f || coolDown <= Time.time) {
-            return true;
-        }
-        return false;
+        return coolDown > Time.time;
     }
    
 }

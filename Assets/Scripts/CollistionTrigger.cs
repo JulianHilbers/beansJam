@@ -7,7 +7,6 @@ public class CollistionTrigger : MonoBehaviour
 
     private BoxCollider2D bc2d;
     private Rigidbody2D rb2d;
-    private Animator animator;
     public float testY;
 
     [Header("Audio")]
@@ -19,7 +18,6 @@ public class CollistionTrigger : MonoBehaviour
     {
         bc2d = GetComponent<BoxCollider2D>();
         rb2d = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
