@@ -914,6 +914,18 @@ Prefab:
       propertyPath: MoveSpeed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2046822, guid: 2dbdcd1b26bbae74aa02a6d41c8ab405, type: 2}
+      propertyPath: m_BackGroundColor.r
+      value: 0.7411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046822, guid: 2dbdcd1b26bbae74aa02a6d41c8ab405, type: 2}
+      propertyPath: m_BackGroundColor.g
+      value: 0.34509805
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046822, guid: 2dbdcd1b26bbae74aa02a6d41c8ab405, type: 2}
+      propertyPath: m_BackGroundColor.b
+      value: 0.20784314
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2dbdcd1b26bbae74aa02a6d41c8ab405, type: 2}
   m_IsPrefabAsset: 0
