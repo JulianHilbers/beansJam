@@ -41,6 +41,3 @@ ProjectSettings/ProjectVersion.txt
 
 # OSX Kram
 .DS_Store
-
-# meta
-*.meta

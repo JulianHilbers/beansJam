@@ -26,6 +26,9 @@ public class GameStats : ScriptableObject
         if (currentScore > 0)
         {
             highscores.Add(currentScore);
+
+            if (highscores.Count > 5)
+                highscores.RemoveAt(0);
         }
     }
 
