@@ -16,7 +16,7 @@ public class CurrentScore : MonoBehaviour
 
         gamestats.GetHighscores().ForEach((int score) =>
         {
-            text += place + "# - " + score + "\n";
+            text += place + "# - " + score + " m\n";
             place++;
         });
 
