@@ -2,7 +2,8 @@
 
 public class LambController : MonoBehaviour
 {
-    public float moveSteps = 1f;
+    public float waitUntilShow = 2f;
+    public float moveForce = 1f;
     public float failPosition = -3.5f;
 
     [Header("Scene")]
@@ -12,6 +13,7 @@ public class LambController : MonoBehaviour
 
     private Rigidbody2D rBody;
     private float initialY;
+    private float waited;
 
     private void Start()
     {
@@ -22,17 +24,33 @@ public class LambController : MonoBehaviour
     private void Update()
     {
         CheckForFail();
+
+        if (waited < waitUntilShow)
+        {
+            waited += Time.deltaTime;
+        }
+        else if (waited > waitUntilShow) {
+            waitUntilShow = 0;
+            waited = 0;
+
+            MoveUp(30f);
+        }
     }
 
     public void MoveUp()
     {
-        rBody.AddForce(Vector2.up * moveSteps);
+        MoveUp(moveForce);
+    }
+
+    public void MoveUp(float speed)
+    {
+        rBody.AddForce(Vector2.up * speed);
     }
 
     public void MoveDown()
     {
         if (transform.position.y >= initialY)
-            rBody.AddForce(Vector2.down * moveSteps);
+            rBody.AddForce(Vector2.down * moveForce);
     }
 
     private void CheckForFail()
