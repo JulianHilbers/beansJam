@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: 08ece35bef70a43fa9f975cfc2f36928
+guid: d4676db7b39b440c2b338fd8d1688290
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Brother_b-animation-singing_Brother-B_Idle_0
-    21300002: Brother_b-animation-singing_Brother-B_Idle_1
-    21300004: Brother_b-animation-singing_Brother-B_Idle_2
-    21300006: Brother_b-animation-singing_Brother-B_Idle_3
-    21300008: Brother_b-animation-singing_Brother-B_Idle_4
-    21300010: Brother_b-animation-singing_Brother-B_Idle_5
-    21300012: Brother_b-animation-singing_Brother-B_Idle_6
-    21300014: Brother_b-animation-singing_Brother-B_Idle_7
-    21300016: Brother_b-animation-singing_Brother-B_Idle_8
-    21300018: Brother_b-animation-singing_Brother-B_Idle_9
+    21300000: Brother_a-animation-mouthmonica_entity_000_NewAnimation_0
+    21300002: Brother_a-animation-mouthmonica_entity_000_NewAnimation_1
+    21300004: Brother_a-animation-mouthmonica_entity_000_NewAnimation_2
+    21300006: Brother_a-animation-mouthmonica_entity_000_NewAnimation_3
+    21300008: Brother_a-animation-mouthmonica_entity_000_NewAnimation_4
+    21300010: Brother_a-animation-mouthmonica_entity_000_NewAnimation_5
+    21300012: Brother_a-animation-mouthmonica_entity_000_NewAnimation_6
+    21300014: Brother_a-animation-mouthmonica_entity_000_NewAnimation_7
+    21300016: Brother_a-animation-mouthmonica_entity_000_NewAnimation_8
+    21300018: Brother_a-animation-mouthmonica_entity_000_NewAnimation_9
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Brother_b-animation-singing_Brother-B_Idle_0
+      name: Brother_a-animation-mouthmonica_entity_000_NewAnimation_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1085
-        width: 634
-        height: 1085
+        y: 1279
+        width: 566
+        height: 1279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,19 +119,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1319decd7855a4cf289a622c1be9121f
+      spriteID: 9d6da6d973e634470bbedade4bbe8af2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brother_b-animation-singing_Brother-B_Idle_1
+      name: Brother_a-animation-mouthmonica_entity_000_NewAnimation_1
       rect:
         serializedVersion: 2
-        x: 634
-        y: 1085
-        width: 634
-        height: 1085
+        x: 566
+        y: 1279
+        width: 566
+        height: 1279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,19 +139,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de887071fb5454f0595eb5096fcf546f
+      spriteID: bf61db1ab96344aa2af2df24588eeff6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brother_b-animation-singing_Brother-B_Idle_2
+      name: Brother_a-animation-mouthmonica_entity_000_NewAnimation_2
       rect:
         serializedVersion: 2
-        x: 1268
-        y: 1085
-        width: 634
-        height: 1085
+        x: 1132
+        y: 1279
+        width: 566
+        height: 1279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,19 +159,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f60503af2b2a94fa2a6dceb324557584
+      spriteID: c4c04d859c9da4318a68aac5d150648e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brother_b-animation-singing_Brother-B_Idle_3
+      name: Brother_a-animation-mouthmonica_entity_000_NewAnimation_3
       rect:
         serializedVersion: 2
-        x: 1902
-        y: 1085
-        width: 634
-        height: 1085
+        x: 1698
+        y: 1279
+        width: 566
+        height: 1279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,19 +179,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c92ba6e1992354c538fd0ab5f00ca207
+      spriteID: 90042bd6645fe4d10a4af7c86db0aae7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brother_b-animation-singing_Brother-B_Idle_4
+      name: Brother_a-animation-mouthmonica_entity_000_NewAnimation_4
       rect:
         serializedVersion: 2
-        x: 2536
-        y: 1085
-        width: 634
-        height: 1085
+        x: 2264
+        y: 1279
+        width: 566
+        height: 1279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,19 +199,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7280cbdaf37c748028deaee2f96c7345
+      spriteID: b26b1fa311ef44263b93ce2d3fbf16f7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brother_b-animation-singing_Brother-B_Idle_5
+      name: Brother_a-animation-mouthmonica_entity_000_NewAnimation_5
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 634
-        height: 1085
+        width: 566
+        height: 1279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,19 +219,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1eda1ef2dbf24460b776bc74f11abc5
+      spriteID: 83d5ff3bfd04e4d15b021bcfc675e88c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brother_b-animation-singing_Brother-B_Idle_6
+      name: Brother_a-animation-mouthmonica_entity_000_NewAnimation_6
       rect:
         serializedVersion: 2
-        x: 634
+        x: 566
         y: 0
-        width: 634
-        height: 1085
+        width: 566
+        height: 1279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,19 +239,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49264c388e2a54814a11c4195daeae21
+      spriteID: 5b07cd09e0ca14e5ea8511cfec24c2e4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brother_b-animation-singing_Brother-B_Idle_7
+      name: Brother_a-animation-mouthmonica_entity_000_NewAnimation_7
       rect:
         serializedVersion: 2
-        x: 1268
+        x: 1132
         y: 0
-        width: 634
-        height: 1085
+        width: 566
+        height: 1279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,19 +259,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f55ce09fb70da4e89ad5d9806d63abae
+      spriteID: c7f4775572fcd4fd191598642def95f0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brother_b-animation-singing_Brother-B_Idle_8
+      name: Brother_a-animation-mouthmonica_entity_000_NewAnimation_8
       rect:
         serializedVersion: 2
-        x: 1902
+        x: 1698
         y: 0
-        width: 634
-        height: 1085
+        width: 566
+        height: 1279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,19 +279,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 283ac1ffa57c644eda69667d49589ebc
+      spriteID: 73e3da34318394c139a9484fd8c91ce9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Brother_b-animation-singing_Brother-B_Idle_9
+      name: Brother_a-animation-mouthmonica_entity_000_NewAnimation_9
       rect:
         serializedVersion: 2
-        x: 2536
+        x: 2264
         y: 0
-        width: 634
-        height: 1085
+        width: 566
+        height: 1279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,7 +299,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0930230b5c8924bbe836de539a8ae525
+      spriteID: 59647b0abacb94d0e8fc5a16747e2211
       vertices: []
       indices: 
       edges: []
@@ -307,7 +307,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 400d9715dfa5f4435b566a308e5aa562
+    spriteID: 9bbee29aaaa5a4a48bc1bbcc6228d89f
     vertices: []
     indices: 
     edges: []
