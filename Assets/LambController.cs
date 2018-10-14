@@ -4,7 +4,6 @@ public class LambController : MonoBehaviour
 {
     public float waitUntilShow = 2f;
     public float moveForce = 1f;
-    public float failPosition = -3.5f;
 
     [Header("Scene")]
     public GameStats stats;
@@ -19,20 +18,21 @@ public class LambController : MonoBehaviour
     {
         initialY = transform.position.y;
         rBody = GetComponent<Rigidbody2D>();
+        GetComponent<BoxCollider2D>().enabled = false;
     }
 
     private void Update()
     {
-        CheckForFail();
-
         if (waited < waitUntilShow)
         {
             waited += Time.deltaTime;
         }
-        else if (waited > waitUntilShow) {
+        else if (waited > waitUntilShow)
+        {
             waitUntilShow = 0;
             waited = 0;
 
+            GetComponent<BoxCollider2D>().enabled = true;
             MoveUp(30f);
         }
     }
@@ -53,12 +53,9 @@ public class LambController : MonoBehaviour
             rBody.AddForce(Vector2.down * moveForce);
     }
 
-    private void CheckForFail()
+    public void GameFailed()
     {
-        if (transform.position.y > failPosition)
-        {
-            SceneLoader.LoadScene(sceneName);
-            stats.AddHighScore(stats.GetCurrentScore());
-        }
+        SceneLoader.LoadScene(sceneName);
+        stats.AddHighScore(stats.GetCurrentScore());
     }
 }

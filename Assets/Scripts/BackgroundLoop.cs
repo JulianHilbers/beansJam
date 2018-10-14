@@ -3,15 +3,13 @@ using System.Collections.Generic;
 
 public class BackgroundLoop : MonoBehaviour
 {
-    public float VerticalLength { get; set; }
     public List<Sprite> sprites;
+    public float VerticalLength { get; set; }
 
-    private BoxCollider2D streetCollider;
     private SpriteRenderer spriteRenderer;
 
     void Awake()
     {
-        streetCollider = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 

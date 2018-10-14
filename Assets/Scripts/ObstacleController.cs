@@ -6,7 +6,7 @@ public class ObstacleController : MonoBehaviour
     public float position = 20f;
     public float waitUntilFirtstSpawn = 4f;
 
-    public int speed;
+    public float speed;
     public List<GameObject> list;
     public List<GameObject> clonedList;
 
@@ -79,7 +79,7 @@ public class ObstacleController : MonoBehaviour
 
             int newLane = GetLane(lastLane);
             clone.transform.position = new Vector3(lanes[newLane], lastYpos, 0);
-            clone.GetComponent<Spawnable>().speed = speed;
+            clone.GetComponent<Spawnable>().Speed = speed;
 
             clonedList.Add(clone);
 

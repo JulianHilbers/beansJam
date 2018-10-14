@@ -7,7 +7,7 @@ public class Spawnable : MonoBehaviour
 
     protected bool active = true;
     private float[] lanes = new float[] { -2.5f, 0, 2.5f };
-    public float speed = 3.5f;
+    public float Speed { get; set; } = 3.5f;
 
     private int lastPlayerLane;
     private int currentPlayerLane = 0;
@@ -20,7 +20,7 @@ public class Spawnable : MonoBehaviour
 
         if (active)
         {
-            transform.Translate(Vector2.down * Time.deltaTime * speed);
+            transform.Translate(Vector2.down * Time.deltaTime * Speed);
         }
 
         if (renderer.transform.position.y <= respawnAt)
