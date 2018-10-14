@@ -12,8 +12,7 @@ public class SoundChapter1 : MonoBehaviour {
     private void OnEnable() {
         chapterStartTime = Time.time;
 
-        door.Play((ulong) doorTime);
-        //door.PlayDelayed(doorTime);
+        door.PlayDelayed(doorTime);
     }
 
     // Use this for initialization
