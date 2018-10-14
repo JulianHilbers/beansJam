@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 61634989968708360}
   - component: {fileID: 212487471912371382}
   - component: {fileID: 114623825980084432}
+  - component: {fileID: 95804785432523922}
   m_Layer: 0
   m_Name: Obstacle-1
   m_TagString: Obstacle
@@ -67,6 +68,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.0285256, y: 1.6861668}
   m_EdgeRadius: 0
+--- !u!95 &95804785432523922
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575075870832498}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6c5d69eda407f453385af4a6152ddecc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114623825980084432
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -79,6 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: 8eeb775317ee54a82875ae3ceba73153, type: 2}
+  respawnAt: -6
   speed: 4
 --- !u!212 &212487471912371382
 SpriteRenderer:
