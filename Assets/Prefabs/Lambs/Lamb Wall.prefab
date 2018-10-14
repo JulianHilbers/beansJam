@@ -1312,7 +1312,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1771234186427222}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.15969364, y: -8, z: 0}
+  m_LocalPosition: {x: -0.15969364, y: -8.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4906954652734338}
@@ -1480,7 +1480,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0.5
+  m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -2338,7 +2338,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5eb0021c3970f945ac917f551def4ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSteps: 70
+  waitUntilShow: 2
+  moveForce: 60
   failPosition: -3.5
   stats: {fileID: 11400000, guid: 8eeb775317ee54a82875ae3ceba73153, type: 2}
   sceneName: Scene-Highscore

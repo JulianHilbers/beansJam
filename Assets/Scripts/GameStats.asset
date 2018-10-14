@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highscores: 
   playerLane: 0
-  playerLaneCount: 1
+  playerLaneCount: 3
