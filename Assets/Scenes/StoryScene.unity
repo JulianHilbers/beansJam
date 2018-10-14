@@ -730,6 +730,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1027753911}
   - component: {fileID: 1027753913}
+  - component: {fileID: 1027753914}
+  - component: {fileID: 1027753915}
   - component: {fileID: 1027753912}
   m_Layer: 5
   m_Name: Brother-b
@@ -820,6 +822,33 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1027753914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1027753910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3d4608068a74bc9b5a4fa7df49f082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeUntilJump: 3
+  jumpHeight: 1.1
+  startPosition: {x: 0.5, y: 6.5, z: 0}
+--- !u!114 &1027753915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1027753910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb52b0e74dde64c949dcf7344c67f9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeUntilJump: 4
+  runLength: 10
 --- !u!1 &1143674625
 GameObject:
   m_ObjectHideFlags: 0
@@ -1356,6 +1385,8 @@ GameObject:
   - component: {fileID: 2069501985}
   - component: {fileID: 2069501987}
   - component: {fileID: 2069501986}
+  - component: {fileID: 2069501989}
+  - component: {fileID: 2069501988}
   m_Layer: 5
   m_Name: Brother-a
   m_TagString: Untagged
@@ -1370,7 +1401,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2069501984}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.22, y: 0.22, z: 1}
   m_Children: []
   m_Father: {fileID: 1507614736}
@@ -1445,3 +1476,30 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2069501988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2069501984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3d4608068a74bc9b5a4fa7df49f082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeUntilJump: 3
+  jumpHeight: 1
+  startPosition: {x: -0.5, y: 6.5, z: 0}
+--- !u!114 &2069501989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2069501984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb52b0e74dde64c949dcf7344c67f9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeUntilJump: 4
+  runLength: 100
