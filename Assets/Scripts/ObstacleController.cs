@@ -1,6 +1,5 @@
-﻿using System.Collections;
+﻿using UnityEngine;
 using System.Collections.Generic;
-using UnityEngine;
 
 public class ObstacleController : MonoBehaviour
 {
@@ -11,9 +10,8 @@ public class ObstacleController : MonoBehaviour
     public List<GameObject> list;
     public List<GameObject> clonedList;
 
-
     private float waitedTime = 0;
-    private float[] lanes = new float[] { -2f, 0.0f, 2f };
+    private float[] lanes = new float[] { -2f, 0, 2f };
 
     private bool initialized = false;
 
@@ -55,10 +53,12 @@ public class ObstacleController : MonoBehaviour
         int lastLane = 0;
         clonedList.ForEach((GameObject obj) =>
         {
-            if (!obj.GetComponent<Spawnable>().IsActive()){  
+            if (!obj.GetComponent<Spawnable>().IsActive())
+            {
                 int newLane = GetLane(lastLane);
 
-                if(obj.GetComponent<Collider2D>().tag.Equals("PowerUp") && obj.GetComponent<PowerUp>().CooledDown()){
+                if (obj.GetComponent<Collider2D>().tag.Equals("PowerUp") && obj.GetComponent<PowerUp>().CooledDown())
+                {
                     return;
                 }
 
@@ -75,10 +75,11 @@ public class ObstacleController : MonoBehaviour
         int lastLane = 0;
         list.ForEach((GameObject obj) =>
         {
-            GameObject clone = Instantiate(obj);
+            GameObject clone = Instantiate(obj, transform);
 
             int newLane = GetLane(lastLane);
             clone.transform.position = new Vector3(lanes[newLane], lastYpos, 0);
+            clone.GetComponent<Spawnable>().speed = speed;
 
             clonedList.Add(clone);
 
@@ -87,5 +88,5 @@ public class ObstacleController : MonoBehaviour
         });
     }
 
-   
+
 }

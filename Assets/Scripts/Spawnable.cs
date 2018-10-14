@@ -6,7 +6,7 @@ public class Spawnable : MonoBehaviour
     public float respawnAt = -6f;
 
     protected bool active = true;
-    private float[] lanes = new float[] { -2.5f, 0.0f, 2.5f };
+    private float[] lanes = new float[] { -2.5f, 0, 2.5f };
     public float speed = 3.5f;
 
     private int lastPlayerLane;
