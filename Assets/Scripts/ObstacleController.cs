@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ObstacleController : MonoBehaviour
@@ -6,13 +7,13 @@ public class ObstacleController : MonoBehaviour
     public float position = 20f;
     public float waitUntilFirtstSpawn = 4f;
 
-    public float speed;
+    public int speed;
     public List<GameObject> list;
     public List<GameObject> clonedList;
 
 
-    private float waited = 0;
-    private float[] lanes = new float[] { -2f, 0, 2f };
+    private float waitedTime = 0;
+    private float[] lanes = new float[] { -2f, 0.0f, 2f };
 
     private bool initialized = false;
 
@@ -33,10 +34,11 @@ public class ObstacleController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (waited < waitUntilFirtstSpawn)
-            waited += Time.deltaTime;
+        if (waitedTime < waitUntilFirtstSpawn)
+            waitedTime += Time.deltaTime;
 
-        if (waited >= waitUntilFirtstSpawn)
+
+        if (waitedTime >= waitUntilFirtstSpawn)
         {
             if (!initialized)
             {
@@ -53,25 +55,17 @@ public class ObstacleController : MonoBehaviour
         int lastLane = 0;
         clonedList.ForEach((GameObject obj) =>
         {
-            Spawnable spawnable = obj.GetComponent<Spawnable>();
-
-            if (!spawnable.IsActive())
-            {
+            if (!obj.GetComponent<Spawnable>().IsActive()){  
                 int newLane = GetLane(lastLane);
-                spawnable.ReSpawn(newLane);
+
+                if(obj.GetComponent<Collider2D>().tag.Equals("PowerUp") && obj.GetComponent<PowerUp>().CooledDown()){
+                    return;
+                }
+
+                obj.GetComponent<Spawnable>().ReSpawn(newLane);
                 lastLane = newLane;
             }
 
-            if (!obj.activeSelf)
-            {
-                if (obj.GetComponent<PowerUp>().CooledDown())
-                {
-                    obj.SetActive(true);
-                    int newLane = GetLane(lastLane);
-                    spawnable.ReSpawn(newLane);
-                    lastLane = newLane;
-                }
-            }
         });
     }
 
@@ -81,11 +75,10 @@ public class ObstacleController : MonoBehaviour
         int lastLane = 0;
         list.ForEach((GameObject obj) =>
         {
-            GameObject clone = Instantiate(obj, transform);
+            GameObject clone = Instantiate(obj);
 
             int newLane = GetLane(lastLane);
             clone.transform.position = new Vector3(lanes[newLane], lastYpos, 0);
-            clone.GetComponent<Spawnable>().speed = speed;
 
             clonedList.Add(clone);
 
@@ -94,5 +87,5 @@ public class ObstacleController : MonoBehaviour
         });
     }
 
-
+   
 }

@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 61820127685504042}
   - component: {fileID: 212112660123677368}
   - component: {fileID: 114727721375327314}
+  - component: {fileID: 95065608677309624}
   m_Layer: 0
   m_Name: Obstacle-2
   m_TagString: Obstacle
@@ -67,6 +68,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.162168, y: 1.5984564}
   m_EdgeRadius: 0
+--- !u!95 &95065608677309624
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1497024090850284}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fb864fe5cb847456cb4b888793485304, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114727721375327314
 MonoBehaviour:
   m_ObjectHideFlags: 1

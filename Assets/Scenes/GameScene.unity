@@ -270,6 +270,48 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &843262434
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4778537246282056, guid: 45d88ede03dfc284a9e2924637daffc3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.15969364
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778537246282056, guid: 45d88ede03dfc284a9e2924637daffc3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778537246282056, guid: 45d88ede03dfc284a9e2924637daffc3, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.024553733
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778537246282056, guid: 45d88ede03dfc284a9e2924637daffc3, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778537246282056, guid: 45d88ede03dfc284a9e2924637daffc3, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778537246282056, guid: 45d88ede03dfc284a9e2924637daffc3, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778537246282056, guid: 45d88ede03dfc284a9e2924637daffc3, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778537246282056, guid: 45d88ede03dfc284a9e2924637daffc3, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 45d88ede03dfc284a9e2924637daffc3, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1013459623
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,6 +498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f599d1e946d24f73a2f281daf4fd7f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lambController: {fileID: 0}
   testY: 6
 --- !u!114 &1230533930
 MonoBehaviour:
@@ -577,6 +620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c06303a979eef4130a2c5e78edbd21ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStats: {fileID: 0}
 --- !u!1 &1394937613
 GameObject:
   m_ObjectHideFlags: 0

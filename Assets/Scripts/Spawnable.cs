@@ -15,6 +15,7 @@ public class Spawnable : MonoBehaviour
 
     void FixedUpdate()
     {
+
         Renderer renderer = gameObject.GetComponent<Renderer>();
 
         if (active)
@@ -32,7 +33,6 @@ public class Spawnable : MonoBehaviour
     {
         IncrementNoObstaclePlayerLaneCountIfStillOnLane();
         int nextLane = lane;
-
         //spawn an obsticle in player lane if he stays to long on one lane
         if (stats.GetPlayerLaneCount() > Random.Range(2, 4))
         {
