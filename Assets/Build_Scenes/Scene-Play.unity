@@ -462,7 +462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lambController: {fileID: 1269813251}
   deadAnimation: {fileID: 546308559}
-  nextY: 0
+  nextY: 4
   waitUntilEnd: 1
   soundCrash: {fileID: 1069993190}
   soundPowerUp: {fileID: 1069993191}
