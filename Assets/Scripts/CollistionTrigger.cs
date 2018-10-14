@@ -35,9 +35,8 @@ public class CollistionTrigger : MonoBehaviour
         if (other.tag.Equals("Obstacle"))
         {
             Camera.main.GetComponent<CameraControl>().Shake(0.2f, 4, 100 * Time.deltaTime);
-
             rb2d.AddForce(new Vector3(0, -200));
-            animator.SetTrigger("CrashTrigger");
+            spawnable.GetComponent<Obstacle>().OnHit();
             string colliderTag = other.tag;
             lambController.MoveUp();
             soundCrash.Play();
