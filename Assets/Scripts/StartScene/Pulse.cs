@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pulse : MonoBehaviour {
 
-    public void Update()
+    public void FixedUpdate()
     {
         DoPulse();
     }

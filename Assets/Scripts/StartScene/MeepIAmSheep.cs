@@ -22,7 +22,7 @@ public class MeepIAmSheep : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
         if(meepSheepState == MeepSheepState.WAIT && beginningTime + waitTime < Time.time) {
             meepSheepState = MeepSheepState.MOVE;
             startMoveTime = Time.time;
