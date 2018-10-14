@@ -38,3 +38,6 @@ ProjectSettings/ProjectVersion.txt
 *.apk
 *.unitypackage
 *.zip
+
+# OSX Kram
+.DS_Store
