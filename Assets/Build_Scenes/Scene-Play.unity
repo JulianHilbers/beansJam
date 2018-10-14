@@ -1243,7 +1243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   position: 5
   waitUntilFirtstSpawn: 4
-  speed: 5
+  speed: 5.2
   list:
   - {fileID: 1575075870832498, guid: 7220b6efaf6154fb0b28c460c295fd18, type: 2}
   - {fileID: 1497024090850284, guid: a4e01cf0af2854631b3b9a625bbd1e7e, type: 2}
