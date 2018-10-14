@@ -24,7 +24,7 @@ public class StartGame : MonoBehaviour {
             soundPlayed = true;
             doorSound.Play();
         }
-        if (soundPlayed && !doorSound.isPlaying)//(chapterStartTime + timeTillGameStart < Time.time) {
+        if (soundPlayed && !doorSound.isPlaying) {
             chapterController.NextChapter();
         }
 	}
