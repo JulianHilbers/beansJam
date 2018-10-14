@@ -634,9 +634,10 @@ GameObject:
   - component: {fileID: 50838310180998344}
   - component: {fileID: 114259480349159018}
   - component: {fileID: 114188812398505790}
+  - component: {fileID: 61555966632863062}
   m_Layer: 0
   m_Name: Lamb Wall
-  m_TagString: Untagged
+  m_TagString: lambs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1488,6 +1489,31 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &61555966632863062
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1771234186427222}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 1.8911152}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.970242, y: 3.1086788}
+  m_EdgeRadius: 0
 --- !u!95 &95003849899184870
 Animator:
   serializedVersion: 3

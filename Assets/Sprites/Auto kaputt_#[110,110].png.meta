@@ -1,7 +1,99 @@
 fileFormatVersion: 2
 guid: 33260870665bd4e81afb95a2d84a58a4
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Auto kaputt_#[110,110]_0
+    21300002: Auto kaputt_#[110,110]_1
+    21300004: Auto kaputt_#[110,110]_2
+    21300006: Auto kaputt_#[110,110]_3
+    21300008: Auto kaputt_#[110,110]_4
+    21300010: Auto kaputt_#[110,110]_5
+    21300012: Auto kaputt_#[110,110]_6
+    21300014: Auto kaputt_#[110,110]_7
+    21300016: Auto kaputt_#[110,110]_8
+    21300018: Auto kaputt_#[110,110]_9
+    21300020: Auto kaputt_#[110,110]_10
+    21300022: Auto kaputt_#[110,110]_11
+    21300024: Auto kaputt_#[110,110]_12
+    21300026: Auto kaputt_#[110,110]_13
+    21300028: Auto kaputt_#[110,110]_14
+    21300030: Auto kaputt_#[110,110]_15
+    21300032: Auto kaputt_#[110,110]_16
+    21300034: Auto kaputt_#[110,110]_17
+    21300036: Auto kaputt_#[110,110]_18
+    21300038: Auto kaputt_#[110,110]_19
+    21300040: Auto kaputt_#[110,110]_20
+    21300042: Auto kaputt_#[110,110]_21
+    21300044: Auto kaputt_#[110,110]_22
+    21300046: Auto kaputt_#[110,110]_23
+    21300048: Auto kaputt_#[110,110]_24
+    21300050: Auto kaputt_#[110,110]_25
+    21300052: Auto kaputt_#[110,110]_26
+    21300054: Auto kaputt_#[110,110]_27
+    21300056: Auto kaputt_#[110,110]_28
+    21300058: Auto kaputt_#[110,110]_29
+    21300060: Auto kaputt_#[110,110]_30
+    21300062: Auto kaputt_#[110,110]_31
+    21300064: Auto kaputt_#[110,110]_32
+    21300066: Auto kaputt_#[110,110]_33
+    21300068: Auto kaputt_#[110,110]_34
+    21300070: Auto kaputt_#[110,110]_35
+    21300072: Auto kaputt_#[110,110]_36
+    21300074: Auto kaputt_#[110,110]_37
+    21300076: Auto kaputt_#[110,110]_38
+    21300078: Auto kaputt_#[110,110]_39
+    21300080: Auto kaputt_#[110,110]_40
+    21300082: Auto kaputt_#[110,110]_41
+    21300084: Auto kaputt_#[110,110]_42
+    21300086: Auto kaputt_#[110,110]_43
+    21300088: Auto kaputt_#[110,110]_44
+    21300090: Auto kaputt_#[110,110]_45
+    21300092: Auto kaputt_#[110,110]_46
+    21300094: Auto kaputt_#[110,110]_47
+    21300096: Auto kaputt_#[110,110]_48
+    21300098: Auto kaputt_#[110,110]_49
+    21300100: Auto kaputt_#[110,110]_50
+    21300102: Auto kaputt_#[110,110]_51
+    21300104: Auto kaputt_#[110,110]_52
+    21300106: Auto kaputt_#[110,110]_53
+    21300108: Auto kaputt_#[110,110]_54
+    21300110: Auto kaputt_#[110,110]_55
+    21300112: Auto kaputt_#[110,110]_56
+    21300114: Auto kaputt_#[110,110]_57
+    21300116: Auto kaputt_#[110,110]_58
+    21300118: Auto kaputt_#[110,110]_59
+    21300120: Auto kaputt_#[110,110]_60
+    21300122: Auto kaputt_#[110,110]_61
+    21300124: Auto kaputt_#[110,110]_62
+    21300126: Auto kaputt_#[110,110]_63
+    21300128: Auto kaputt_#[110,110]_64
+    21300130: Auto kaputt_#[110,110]_65
+    21300132: Auto kaputt_#[110,110]_66
+    21300134: Auto kaputt_#[110,110]_67
+    21300136: Auto kaputt_#[110,110]_68
+    21300138: Auto kaputt_#[110,110]_69
+    21300140: Auto kaputt_#[110,110]_70
+    21300142: Auto kaputt_#[110,110]_71
+    21300144: Auto kaputt_#[110,110]_72
+    21300146: Auto kaputt_#[110,110]_73
+    21300148: Auto kaputt_#[110,110]_74
+    21300150: Auto kaputt_#[110,110]_75
+    21300152: Auto kaputt_#[110,110]_76
+    21300154: Auto kaputt_#[110,110]_77
+    21300156: Auto kaputt_#[110,110]_78
+    21300158: Auto kaputt_#[110,110]_79
+    21300160: Auto kaputt_#[110,110]_80
+    21300162: Auto kaputt_#[110,110]_81
+    21300164: Auto kaputt_#[110,110]_82
+    21300166: Auto kaputt_#[110,110]_83
+    21300168: Auto kaputt_#[110,110]_84
+    21300170: Auto kaputt_#[110,110]_85
+    21300172: Auto kaputt_#[110,110]_86
+    21300174: Auto kaputt_#[110,110]_87
+    21300176: Auto kaputt_#[110,110]_88
+    21300178: Auto kaputt_#[110,110]_89
+    21300180: Auto kaputt_#[110,110]_90
+    21300182: Auto kaputt_#[110,110]_91
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -20,7 +112,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
@@ -40,7 +132,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +161,1871 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 990
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ea76a9504439b4a829771cf3034a02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 990
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263deadc1bd1f004791d5a976a5b0b0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 990
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48750d6d24f4671408651d0b82c8d03e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 990
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c118bddd8f0da342a43748659925479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 990
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd8207b4f71e724995c861a1d118f41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 990
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24622cedc53adc4c9db9364070b8ff4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_6
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 990
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cf049e5682e7046aa14e2ea429c923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_7
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 990
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94adbd3825405d64dbd01e85393850e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_8
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 990
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab77b4abd4f3e3c4da3c277ff8c5f7ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_9
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 990
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2619713d2fa5c4eac36a99eea99c20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2716d3067458804393b111a1edc8283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_11
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 880
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1a068267a115d46a12ad2af41d38e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_12
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 880
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cf9395a63c0504b8ca3b6f8d76911b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_13
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 880
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c043cf54fb872484c9c4c4cb12d127cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_14
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 880
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf37b7b1f2081014e94ced8ed62bb88e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_15
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 880
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffe1d1f532df4a478c6a6ebe1eb6407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_16
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 880
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69958d3ae5561e4abeb463934b71a1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_17
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 880
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbfb67c99f9133478db9733c0e01921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_18
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 880
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a58a93fb87b87c4d98ae519fc036cbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_19
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 880
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb00da752901074995a7afc910f933c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee6f48185cbefc49b253339039b4928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_21
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 770
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5147ed59fdf7c34419f1e819a531cb60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_22
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 770
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0389f2172281da54eacc2812442a540a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_23
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 770
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91908c13f9423734f999cbd40788ddb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_24
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 770
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38366331e3cbeb34cbb6f7a90540be91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_25
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 770
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdb85817f3825c4dbe972ca905dd9ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_26
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 770
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a8edbe891ef0146801bf73f81e930f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_27
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 770
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66662845db8697449556c892aa3a27a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_28
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 770
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445278feb4cf71d4a9d53d897e5963f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_29
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 770
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc0772731192244f808196320384c12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faa25ff54b0d0b488db14468f962a7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_31
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 660
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5f758812eedda4a8a7da1e1bc9d1a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_32
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 660
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901c3f7dc2939ab42912ed88629dbc9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_33
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 660
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa40b55d358c44e459b3287a4f5abd27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_34
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 660
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b80645cfc3c5745b6ba5dbaf901a34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_35
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 660
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86820f17c531844a92ba1f1cac5eed1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_36
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 660
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49c30217469f9b43b35f81df5ef1957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_37
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 660
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c64f2861d53774e94ba37a04a85d65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_38
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 660
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33697cba8cc53804bbee156fafd7f123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_39
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 660
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63c93591ddf27a4aaea8556ad0a444c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 550
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ae6c2500964464d872f96f45ad65b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_41
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 550
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43baa6f4bd8f1304e8667e1b4a2c9098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_42
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 550
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2895456fd7a5af04a8e05b4816b386da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_43
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 550
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00db571e7ab3d5944a93e4ced3780f58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_44
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 550
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1577133968854e342925ce26024b318f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_45
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 550
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ed95e4a71776941927115d62621e94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_46
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 550
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa238214882f8741ace2810f09f6029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_47
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 550
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfb7574af736fb4a8bd6f5968b831d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_48
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 550
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373664dadd6983f44965ac6ef0c52904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_49
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 550
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b342c494e20bca74481dfd602829c005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb4c3eb7eb8cdf4580e5bf627cc27d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_51
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 440
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09babfb6f6171b40be871625ec59651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_52
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 440
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76466391ae4d69b45a33f6bc955094ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_53
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 440
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df32ca2875a567a4eab191a7c710cc4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_54
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 440
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b66141584277544b46f20812a1948e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_55
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 440
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6027261c09226d54bac677f8d2586877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_56
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 440
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fad6e69c468024587e3c9b2d404501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_57
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 440
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e281c7fbeba07345821b35fcec0f528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_58
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 440
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d704520c25c2804d81adc477b44998d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_59
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 440
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf5bab4d1c549a41bf94bfa0151db74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb4110ccf02cae4bbe0bb26e32233c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_61
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 330
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5901fd1d98cf6084ea2c4d35e22e615a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_62
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 330
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9ba38972f45474b9fb30afb251d46f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_63
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 330
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d553d6e5af436fc4fb1bf5510ad8b401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_64
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 330
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61681adeed886c946a7bcaf4ebca9599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_65
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 330
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e56352dfc474054fbfb90a653b2a699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_66
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 330
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf33ae6b4fc60d74c957a7e114b79eb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_67
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 330
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5fe4ea0e50ed74a8ac960e3c5ccc92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_68
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 330
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d0084550835c94b95962ee827bb4c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_69
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 330
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7ccb19d5403ec4e8dd1cb49e93120d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a86084489301c409cd74fa1ea57c82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_71
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 220
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e882b38e5230cb842a70d6fbbd9787e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_72
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 220
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7483b6e56b7f8cd42b19c272eb2be951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_73
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 220
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fb7c6ccee876a4ead7b66d8ec02625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_74
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 220
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558bf59fa37478a4490cd0137d97a375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_75
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 220
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca435ad409b9034449c4d38b2b23e885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_76
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 220
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f634673d90efee744a858e87819d402c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_77
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 220
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d463c1a8bd001a74eb37b6b266f43ee0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_78
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 220
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2f813420d0d8647800188202cf0f7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_79
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 220
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7069cb7a1921c74fad96596d9c819f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a187c2867faa9479cdf9d482b9471f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_81
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 110
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6669cd76cf1885740aa44ac6fc963fa5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_82
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 110
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d5432c65020a94f997db63182b8d7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_83
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 110
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e900d88913a180c47bf2bed81f4e0f24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_84
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 110
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc35a76f480e15e42bc0fd852a35b044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_85
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 110
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc113e77ddb6c934cb9d40e5be1d95d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_86
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 110
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c2cd96da77fa24c956adc9a59c7d69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_87
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 110
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf639d3c87a9438419b35ab2a79394e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_88
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 110
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb8e652e6352fa4693e1ce4d0cd1920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_89
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 110
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4162856496a14cd4a8e8782f1a9b8d4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db009256ab3be44fb56b147ab116228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auto kaputt_#[110,110]_91
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f81fd4befd29ca4983384972108dac9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

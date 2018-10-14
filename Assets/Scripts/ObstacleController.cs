@@ -79,7 +79,7 @@ public class ObstacleController : MonoBehaviour
 
             int newLane = GetLane(lastLane);
             clone.transform.position = new Vector3(lanes[newLane], lastYpos, 0);
-            clone.GetComponent<Spawnable>().speed = speed;
+            clone.GetComponent<Spawnable>().Speed = speed;
 
             clonedList.Add(clone);
 
