@@ -6,7 +6,7 @@ public class ObstacleController : MonoBehaviour
     public float position = 20f;
     public float waitUntilFirtstSpawn = 4f;
 
-    public int speed;
+    public float speed;
     public List<GameObject> list;
     public List<GameObject> clonedList;
 
