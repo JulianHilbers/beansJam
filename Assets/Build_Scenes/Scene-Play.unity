@@ -200,12 +200,10 @@ MonoBehaviour:
   streetObject: {fileID: 1413335361902098, guid: a16b3dd906030734a8fe80cc7b9c330d,
     type: 2}
   streetSprites:
-  - {fileID: 21300000, guid: e0d1ccde77f98460ab3bf834103700f0, type: 3}
-  - {fileID: 21300000, guid: 74672285d1441460c854e754d6613053, type: 3}
-  - {fileID: 21300000, guid: 9801fcac66d344d5badbfb4884ad5b7b, type: 3}
-  - {fileID: 21300000, guid: 5189fb557582a488c85be1e0b42f7c93, type: 3}
-  - {fileID: 21300000, guid: a38663027fcdb4234a506c1099ef396f, type: 3}
-  - {fileID: 21300000, guid: 16938c7c16131439fa2375b552e338e4, type: 3}
+  - {fileID: 21300000, guid: c38211aa8d1f2477e8f36906911281cd, type: 3}
+  - {fileID: 21300000, guid: 902034e4d778b4995b1a6fddbdce61e8, type: 3}
+  - {fileID: 21300000, guid: 570fe888171a547929508af494497db6, type: 3}
+  - {fileID: 21300000, guid: 559c3cbfcecc64a3ba417bb50bf77ca7, type: 3}
 --- !u!1 &924585159
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,9 +402,9 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.8, y: 0.8}
-    newSize: {x: 0.8, y: 0.8}
+    pivot: {x: 0.44481942, y: 0.42892712}
+    oldSize: {x: 4.01, y: 4.67}
+    newSize: {x: 4.01, y: 4.67}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -469,15 +467,15 @@ SpriteRenderer:
   m_SortingLayerID: -1506604975
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 233cc15b886da4bfdafb83d303bd2f9f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.8, y: 0.8}
+  m_Size: {x: 4.01, y: 4.67}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1069993187
@@ -1066,7 +1064,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4778537246282056, guid: 45d88ede03dfc284a9e2924637daffc3, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.024553733
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4778537246282056, guid: 45d88ede03dfc284a9e2924637daffc3, type: 2}
       propertyPath: m_LocalRotation.x

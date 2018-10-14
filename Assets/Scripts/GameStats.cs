@@ -2,19 +2,26 @@
 using System.Collections.Generic;
 
 [CreateAssetMenu(menuName = "GameStats/Stats")]
-public class GameStats : ScriptableObject {
+public class GameStats : ScriptableObject
+{
     private int currentScore = 0;
 
-    public List<int> highscores = new List<int>();
+    public List<int> highscores;
     public int playerLane;
     public int playerLaneCount;
 
-    public void SetCurrentScore(int newScore) {
+    public void UpdateCurrentScore(int newScore)
+    {
         currentScore = newScore;
     }
 
-    public void SetNewHighScore(int newScore) {
+    public void AddHighScore(int newScore)
+    {
         currentScore = newScore;
+
+        if (highscores == null)
+            highscores = new List<int>();
+
 
         if (currentScore > 0)
         {
@@ -22,16 +29,19 @@ public class GameStats : ScriptableObject {
         }
     }
 
-    public int GetCurrentScore() {
+    public int GetCurrentScore()
+    {
         return currentScore;
     }
 
-    public List<int> GetHighscores() {
+    public List<int> GetHighscores()
+    {
         highscores.Sort((a, b) => -1 * a.CompareTo(b));
         return highscores;
     }
 
-    public void SetPlayerLane(int lane){
+    public void SetPlayerLane(int lane)
+    {
         playerLane = lane;
     }
 
@@ -45,11 +55,13 @@ public class GameStats : ScriptableObject {
         return playerLaneCount;
     }
 
-    public void PlayerLaneIncrement(){
+    public void PlayerLaneIncrement()
+    {
         playerLaneCount += 1;
     }
 
-    public void PlayerLaneReset(){
+    public void PlayerLaneReset()
+    {
         playerLaneCount = 0;
     }
 }

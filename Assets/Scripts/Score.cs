@@ -11,6 +11,6 @@ public class Score : MonoBehaviour
     {
         score++;
         textComponent.text = score + " m";
-        gameStats.SetCurrentScore(score);
+        gameStats.UpdateCurrentScore(score);
     }
 }
