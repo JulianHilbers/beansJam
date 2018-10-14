@@ -40,7 +40,7 @@ public class LambController : MonoBehaviour
         if (transform.position.y > failPosition)
         {
             SceneLoader.LoadScene(sceneName);
-            stats.SetNewHighScore(stats.GetCurrentScore());
+            stats.AddHighScore(stats.GetCurrentScore());
         }
     }
 }
