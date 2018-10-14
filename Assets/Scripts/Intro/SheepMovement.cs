@@ -11,9 +11,15 @@ public class SheepMovement : MonoBehaviour {
 
     private Vector3 currentTarget;
 
+    private float timeUntilRage = 3f;
+    private float chapterStartTime;
+    public Vector3 rageTargetPosition;
+    public float rageSpeed;
 
 
-    public void Start() {
+
+    public void OnEnable() {
+        chapterStartTime = Time.time;
         startLocalPosition = transform.position;
         //Debug.Log("start position: " + startLocalPosition);
         //Debug.Log("start localposition: " + transform.position);
@@ -25,6 +31,12 @@ public class SheepMovement : MonoBehaviour {
 
     public void SetMovementOff() {
         this.movementState = MovementState.STOP;
+    }
+
+    public void FixedUpdate() {
+        if(movementState == MovementState.NEXT && chapterStartTime + timeUntilRage < Time.time) {
+            movementState = MovementState.RAGE;
+        }
     }
 
     public void Update() {
@@ -43,13 +55,24 @@ public class SheepMovement : MonoBehaviour {
                 movementState = MovementState.NEXT;
             }
         }
+
+        if (movementState == MovementState.RAGE) {
+            transform.position = Vector3.MoveTowards(transform.position, rageTargetPosition, rageSpeed * Time.deltaTime);
+            if(IsAtTarget()) {
+                movementState = MovementState.STOP;
+            }
+        }
     }
 
     private bool IsAtTarget() {
+        Vector3 t = movementState == MovementState.MOVE ? currentTarget : rageTargetPosition;
         return Vector3.Distance(transform.localPosition, currentTarget) < .05f;
     }
 
     private Vector3 GetRandomWithinBounds() {
+
+
+
         System.Random rand = new System.Random();
         float xMin = startLocalPosition.x - (movementArea.x / 2);
         float xMax = startLocalPosition.x + (movementArea.x / 2);
@@ -67,6 +90,7 @@ public class SheepMovement : MonoBehaviour {
     enum MovementState{
         MOVE,
         NEXT,
-        STOP
+        STOP,
+        RAGE,
     }
 }
