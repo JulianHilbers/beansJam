@@ -34,11 +34,12 @@ public class Spawnable : MonoBehaviour
         IncrementNoObstaclePlayerLaneCountIfStillOnLane();
         int nextLane = lane;
         //spawn an obsticle in player lane if he stays to long on one lane
-        if (stats.GetPlayerLaneCount() > Random.Range(2, 4))
+        if (stats.GetPlayerLaneCount() > Random.Range(1, 3) && !GetComponent<PowerUp>())
         {
             stats.PlayerLaneReset();
             nextLane = stats.GetPlayerLane() + 1;
         }
+
         transform.position = new Vector3(lanes[nextLane], 10, 0);
         active = true;
 
