@@ -269,6 +269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComp: {fileID: 490349554}
   scoreComp: {fileID: 1540627765}
+  retryButton: {fileID: 803813944}
   gamestats: {fileID: 11400000, guid: 8eeb775317ee54a82875ae3ceba73153, type: 2}
 --- !u!1 &490349551
 GameObject:

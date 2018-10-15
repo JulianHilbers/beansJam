@@ -9,6 +9,7 @@ public class GameStats : ScriptableObject
     public List<int> highscores;
 
     [Header("Gameplay")]
+    public bool isScroreAfterPlay = false;
     public int playerLane;
     public int playerLaneCount;
 
@@ -32,6 +33,11 @@ public class GameStats : ScriptableObject
             if (highscores.Count > 5)
                 highscores.RemoveAt(0);
         }
+    }
+
+    public void IsFromGame(bool value)
+    {
+        isScroreAfterPlay = value;
     }
 
     public int GetCurrentScore()

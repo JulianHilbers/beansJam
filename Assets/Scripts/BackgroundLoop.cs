@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
 
 public class BackgroundLoop : MonoBehaviour
@@ -11,6 +12,12 @@ public class BackgroundLoop : MonoBehaviour
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    private void Start()
+    {
+        Rigidbody2D rb2d = GetComponent<Rigidbody2D>();
+        rb2d.velocity = new Vector2(0, -5.5f);
     }
 
     void Update()

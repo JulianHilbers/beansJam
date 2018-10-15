@@ -55,7 +55,7 @@ public class LambController : MonoBehaviour
 
     public void GameFailed()
     {
+        stats.IsFromGame(true);
         SceneLoader.LoadScene(sceneName);
-        stats.AddHighScore(stats.GetCurrentScore());
     }
 }

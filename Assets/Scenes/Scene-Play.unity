@@ -4412,7 +4412,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lambController: {fileID: 1269813251}
   deadAnimation: {fileID: 546308559}
-  nextY: 3.5
+  nextY: 3
   waitUntilEnd: 1
   soundCrash: {fileID: 1069993190}
   soundPowerUp: {fileID: 1069993191}
@@ -4428,6 +4428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forceScaleFactor: 15
+  offsetY: 0.4
   laneDistance: 2
   lane: 0
   soundLeft: {fileID: 1069993189}

@@ -5,9 +5,9 @@ public class PlayerControls : MonoBehaviour
     private float destinationX;
     private float destinationY;
 
-    public float forceScaleFactor;
-
-    public float laneDistance;
+    public float forceScaleFactor = 15f;
+    public float offsetY = 0.5f;
+    public float laneDistance = 2f;
     public int lane = 0;
 
     [Header("Audio")]
@@ -25,15 +25,15 @@ public class PlayerControls : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        destinationX = 0f;
-        destinationY = 0f;
+        destinationX = 0;
+        destinationY = 0;
     }
 
     void Update()
     {
         destinationY = destinationY * 0.95f;
 
-        force.y = destinationY - transform.position.y;
+        force.y = destinationY - transform.position.y - offsetY;
         force.x = destinationX - transform.position.x;
 
         rb2d.AddForce(force * forceScaleFactor);
