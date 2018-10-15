@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d018fd9c2e1e44447abfca6e8bdea52d, type: 3}
   m_Name: GameStats
   m_EditorClassIdentifier: 
-  highscores: e8030000
+  currentScore: 500
+  highscores: c4090000e8030000e803000090010000640000000a000000
   playerLane: 0
   playerLaneCount: 0

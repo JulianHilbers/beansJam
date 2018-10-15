@@ -4,9 +4,11 @@ using System.Collections.Generic;
 [CreateAssetMenu(menuName = "GameStats/Stats")]
 public class GameStats : ScriptableObject
 {
-    private int currentScore = 0;
-
+    [Header("Score")]
+    public int currentScore = 0;
     public List<int> highscores;
+
+    [Header("Gameplay")]
     public int playerLane;
     public int playerLaneCount;
 
