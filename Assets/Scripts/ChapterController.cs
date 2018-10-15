@@ -2,26 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChapterController : MonoBehaviour {
+public class ChapterController : MonoBehaviour
+{
     public List<GameObject> chapterList;
     public string nextSceneName = "GameScene";
     public SceneLoader sceneController;
 
     private int currentChapter = 0;
 
-    public void Start() {
+    public void Start()
+    {
         SetChapterVisible(0);
     }
 
-    private void SetChapterVisible(int chapterNumber) {
+    private void SetChapterVisible(int chapterNumber)
+    {
         int counter = 0;
-        foreach (GameObject chapterObject in chapterList) {
-            Debug.Log("Counter: " + counter + ", Chapter Number: " + chapterNumber);
-            if (counter == chapterNumber) {
-                Debug.Log("Set Chapter visible: " + counter);
+        foreach (GameObject chapterObject in chapterList)
+        {
+            if (counter == chapterNumber)
+            {
                 chapterObject.SetActive(true);
-            } else {
-                Debug.Log("Set Chapter invisible: " + counter);
+            }
+            else
+            {
                 chapterObject.SetActive(false);
             }
             counter++;
@@ -29,17 +33,21 @@ public class ChapterController : MonoBehaviour {
         }
     }
 
-
-    public void NextChapter() {
+    public void NextChapter()
+    {
         currentChapter++;
-        if(chapterList.Count > currentChapter ) {
+        if (chapterList.Count > currentChapter)
+        {
             SetChapterVisible(currentChapter);
-        } else {
+        }
+        else
+        {
             StartNextScene();
         }
     }
 
-    private void StartNextScene() {
+    private void StartNextScene()
+    {
         sceneController.LoadScene(nextSceneName);
     }
 }

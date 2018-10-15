@@ -330,10 +330,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd7cb905c3424efa86c5957b460ccd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementArea: {x: 2, y: 2, z: 0}
-  movementSpeed: 0.8
-  rageTargetPosition: {x: 0, y: 7, z: -2}
   rageSpeed: 2
+  movementSpeed: 0.8
+  movementArea: {x: 2, y: 2, z: 0}
+  rageTargetPosition: {x: 0, y: 7, z: -2}
 --- !u!212 &573114425
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -483,10 +483,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd7cb905c3424efa86c5957b460ccd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementArea: {x: 2, y: 2, z: 0}
-  movementSpeed: 0.5
-  rageTargetPosition: {x: 0, y: 8, z: -1}
   rageSpeed: 1.5
+  movementSpeed: 0.5
+  movementArea: {x: 2, y: 2, z: 0}
+  rageTargetPosition: {x: 0, y: 8, z: -1}
 --- !u!212 &700145432
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -583,7 +583,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 1024}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
+  m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -669,10 +669,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd7cb905c3424efa86c5957b460ccd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementArea: {x: 50, y: 50, z: 0}
-  movementSpeed: 1
-  rageTargetPosition: {x: 0, y: 6.2, z: -3}
   rageSpeed: 5
+  movementSpeed: 1
+  movementArea: {x: 50, y: 50, z: 0}
+  rageTargetPosition: {x: 0, y: 6.2, z: -3}
 --- !u!212 &981854718
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1327,7 +1327,7 @@ GameObject:
   - component: {fileID: 1831889666}
   - component: {fileID: 1831889669}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1346,11 +1346,11 @@ RectTransform:
   m_Father: {fileID: 786672452}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.80009735, y: 0.119809315}
-  m_AnchorMax: {x: 0.80009735, y: 0.119809315}
+  m_AnchorMin: {x: 0.9, y: 0.05}
+  m_AnchorMax: {x: 0.9, y: 0.05}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 170, y: 170}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_SizeDelta: {x: 160, y: 160}
+  m_Pivot: {x: 1, y: 0}
 --- !u!114 &1831889666
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class SwipeController : MonoBehaviour
+public class TouchController : MonoBehaviour
 {
     public PlayerControls playerControls;
 
@@ -9,6 +9,7 @@ public class SwipeController : MonoBehaviour
 
 
     private Vector2 swipeStartPos;
+    private float screenHalf;
 
     private void HandleToches()
     {
@@ -20,47 +21,27 @@ public class SwipeController : MonoBehaviour
         {
             case TouchPhase.Began:
                 swipeStartPos = touch.position;
-                OnTouchBegan(touch.position);
-                break;
-
-            case TouchPhase.Moved:
-                OnTouchMoved(touch.position, touch.position - swipeStartPos);
-                break;
-
-            case TouchPhase.Stationary:
-                OnTouchStay(touch.position);
+                OnTouchStart(touch.position);
                 break;
 
             case TouchPhase.Ended:
-                HandleSwipe(touch);
                 OnTouchEnd(touch.position);
                 break;
         }
     }
 
-    private void OnTouchBegan(Vector2 position)
-    {
-
-    }
+    private void OnTouchStart(Vector2 position) { }
 
     private void OnTouchEnd(Vector2 position)
     {
-
-    }
-
-    private void OnTouchStay(Vector2 position)
-    {
-
-    }
-
-    private void OnTouchMoved(Vector2 position, Vector2 direction)
-    {
-
-    }
-
-    private void OnTouchBegan(Vector2 position, Vector3 direction)
-    {
-
+        if (position.x > screenHalf)
+        {
+            playerControls.IncreaseLane();
+        }
+        else
+        {
+            playerControls.DecreaseLane();
+        }
     }
 
     private void OnSwipedHorizontally(Vector2 position, float direction)
@@ -86,10 +67,13 @@ public class SwipeController : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        screenHalf = Screen.width / 2;
+    }
 
     private void Update()
     {
         HandleToches();
     }
-
 }
